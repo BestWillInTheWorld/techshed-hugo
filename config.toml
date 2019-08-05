@@ -1,0 +1,126 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "My New Hugo Site"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo.png"
+        home = "Home"
+        about = "About"
+        service = "What"
+        posts = "Blog"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg.jpg"
+        title       = "Techshed Frome"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        btnText     = "Get Started"
+        countdownYear = "2019"
+        countdownMonth = "12"
+        countdownDay  = "27"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+
+        [[params.about.sliderItem]]
+            image   = "images/about/1.jpg"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "What Happens at the Techshed"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Weekly Meetups"
+            description = "Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation, data science, machine learning)"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Collaboration"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Learning"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Sharing Knowledge"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.6s"
+        
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Hackathons and Tech Talks"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.8s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Community Projects"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Open to All"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Open Sessions"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.5s"
+    
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action.jpg"
+        title       = "Subscribe to our mailing list"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
