@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://test.techshedfrome.org/"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "Techshed Frome"
 theme = "infinity-hugo"
+publishDir = "docs"
 
 [params]
 
