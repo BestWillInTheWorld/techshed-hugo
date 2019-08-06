@@ -61,6 +61,12 @@ That allows the partial layout to pull in values for use within the page, using 
 <img src="{{ . }}" alt="logo">
 {{ end }}
 ```
+## Overriding Theme Elements
+For our purposes, I've overridden the partial layout `hero-area.html` - which displays the main image at the top of the home page - in order to remove the conutdown timer from the original theme.  This is done by adding a copy of the theme's version of `hero-area.html` to `/layouts/partials/hero-area.html` and making changes there.
+
+Similarly, other files from the theme, can be overridden by adding modified copies of the files to the relevant directory in the root of the project.
+
+I've also overidden some CSS + several images via `/static/css/style.css` and `/static/images/` 
 
 ## Global Config (at the top of config.toml)
 Values in the global scope are used as [build parameters for Hugo](https://gohugo.io/getting-started/configuration/#all-configuration-settings) when running the `hugo` command to build the site e.g.
@@ -159,15 +165,13 @@ logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/i
     * I've also enabled Git Gateway to enable the CMS to write back to my repo
       * `Settings > Identity > Services > Git Gateway`
       * Permissions requested (full access to all repos) seem extreme, but Github allows you to control which Repos the netlify app has access to.
-  * We also need to wire this into the `/admin/index.html` page and our default `\index.html` page for the whole site by adding the following into the `<head>` section of those pages:
+  * We also need to wire this into the `/admin/index.html` page and our site's index page via `/layouts/partials/header.html` by adding the following into the `<head>` section of those pages:
     * `<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>`
-    * In our case, the theme we're using has a full layout for `/index.html` the following assumes you're using a template of a similar structure, if not, you'll need to work out what's controlling the `<head>` for your site's `index.html` and follow a simlar process for that file.
-      * We need to make sure we've overridden the default version using `/layouts/index.html` and make the changes in there 
-      * We had already overridden for the `index.html` layout for some layout/CSS/content tweaks - if you haven't then copy the `index.html` from your template into `/layouts/index.html` as a starting point
+      * We need to override the default version copying the `header.html` from the template to `/layouts/partials/header.html` and make the changes in there 
     * In the site's main index page, we also need to add script to redirect CMS users to ensure they end up in the admin section adter authenticating with Netlify's Identity service:
-      * Add the following to the bottom of the `<body>` section of `/layouts/index.html` just before the closing `</body>` tag:
+      * Add the following to the bottom of the `<body>` section of `/layouts/partials/footer.html` just before the closing `</body>` tag:
 ```html
-  <script>
+<script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
