@@ -188,6 +188,10 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
 
 ## TODO
 * Wire up CMS to enable index.html changes
+  * Needs markdown files in `/content/` for to define the structure and values
+    * this will take over from the theme's original setup of populating the content from the global `config.toml` parameters
+    * plus needs definitions adding to the CMS config file: `/static/admin/config.yml`
+  * use https://github.com/netlify-templates/one-click-hugo-cms/blob/master/site/ as a guide
 * Look at CMS setup for 
   * creating new pages
   * blog posts
