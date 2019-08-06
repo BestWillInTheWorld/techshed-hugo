@@ -41,7 +41,7 @@ In order to ensure required folders are available in the git repo, add an empty 
 ## Adding Content for the Theme
 Most themes populate the content via parameters. These parameters can be provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
 
-The Hugo config enables scoping of parameters to a specific context within the site e.g. to expose values just to the "navigation" partial layout for our theme, we can use:
+The Hugo config enables scoping of parameters to a specific namespace within the site e.g. to make it simpler to address values intended for the "navigation" partial layout for our theme, we can use:
 
 ```toml
 [params]
@@ -54,6 +54,12 @@ The Hugo config enables scoping of parameters to a specific context within the s
         service = "What"
         posts = "Blog"
         contact = "Contact"
+```
+That allows the partial layout to pull in values for use within the page, using Handlebars syntax for Hugo e.g.
+```
+{{ with .Site.Params.navigation.logo }}
+<img src="{{ . }}" alt="logo">
+{{ end }}
 ```
 
 ## Global Config (at the top of config.toml)
