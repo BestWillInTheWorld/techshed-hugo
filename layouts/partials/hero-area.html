@@ -1,6 +1,10 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
-    <section class="hero-area" style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");'>
+    <section class="hero-area"
+        style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6">
