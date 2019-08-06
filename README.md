@@ -25,9 +25,10 @@ Key places you might be editing are:
 * `/layouts`
   * for additional page layouts or overrides to the theme
 
-In order to ensure required folders are available in the git repo, add an empty `.keep` file to the following locations:
+In order to ensure required folders are available in the git repo, add an empty `.keep` file to the following locations (particularly necessary if you're deploying to Netlify):
 * `/content`
 * `/data`
+* `/public`
 
 ## Adding Content for the Theme
 Most themes populate the content via parameters. These parameters can be provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
