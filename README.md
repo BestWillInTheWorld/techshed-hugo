@@ -150,6 +150,9 @@ logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/i
 ``` 
 * Since we're hosting on Netlify, their Identity sevice is available to wire-up identity & authentication to GitHub.
   * I've already enabled this in the Netlify hosting config following their [docs](https://www.netlifycms.org/docs/add-to-your-site/).
+    * I've also enabled Git Gateway to enable the CMS to write back to my repo
+      * `Settings > Identity > Services > Git Gateway`
+      * Permissions requested (full access to all repos) seem extreme, but Github allows you to control which Repos the netlify app has access to.
   * We also need to wire this into the `/admin/index.html` page and our default `\index.html` page for the whole site by adding the following into the `<head>` section of those pages:
     * `<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>`
     * In our case, the theme we're using has a full layout for `/index.html` the following assumes you're using a template of a similar structure, if not, you'll need to work out what's controlling the `<head>` for your site's `index.html` and follow a simlar process for that file.
@@ -170,6 +173,8 @@ logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/i
   }
 </script>
 ```
+After that setup, the CMS allows me to signup (against this sepcific site) and log in.  I managed to upload an image to test the connection to GitHub, but since I've not set up the structure for "Posts" (or any pages) yet in the Hugo config, there's not much else to show yet...
+
 
 ## TODO
 * Wire up CMS to enable index.html changes
