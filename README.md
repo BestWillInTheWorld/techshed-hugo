@@ -33,7 +33,24 @@ In order to ensure required folders are available in the git repo, add an empty 
 ## Adding Content for the Theme
 Most themes populate the content via parameters. These parameters can be provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
 
-## Other Config (at the top of config.toml)
+The Hugo config enables scoping of parameters to a specific context within the site e.g. to expose values just to the "navigation" partial layout for our theme, we can use:
+
+```toml
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo.png"
+        home = "Home"
+        about = "About"
+        service = "What"
+        posts = "Blog"
+        contact = "Contact"
+```
+
+## Global Config (at the top of config.toml)
+Values in the global scope are used as [build parameters for Hugo](https://gohugo.io/getting-started/configuration/#all-configuration-settings) when running the `hugo` command to build the site e.g.
+
 ```toml
 baseURL = "<root url of live site>"
 languageCode = "en-gb"
@@ -41,6 +58,7 @@ title = "Techshed Frome"
 theme = "infinity-hugo"
 publishDir = "docs"
 ```
+
 
 ## Generating Site and Testing
 * generate site: `hugo` - generates static site into `publishDir` from config (defaults to /public if not configured)
