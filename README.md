@@ -96,15 +96,57 @@ THe process below describes the [manual process for addin NetlifyCMS](https://ww
 * Create `/admin/config.yml`
   * since we're hosting on Netlify, using their git-backend plugin to drive the build from source code on GitHub, we need to add the following config to tell the CMS how to commit the code.  We'll also configure the option to enable draft posts and image/media uploads via the CMS.
 ```yml
+############
+# required #
+############
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-# Enable "drafts" in CMS workflow
-publish_mode: editorial_workflow
 # Media files will be stored in the repo under static/images/uploads
 media_folder: "static/images/uploads" 
 # The src attribute for uploaded media will begin with /images/uploads
-public_folder: "/images/uploads" 
+public_folder: "/images/uploads"
+# required, doesn't ahve to be in use
+media_library:
+  name: media_lib
+  # required - below is besed on example from https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
+collections:
+  - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Posts' # Used in the UI
+    label_singular: 'Post' # Used in the UI, ie: "New Post"
+    description: >
+      The description is a great place for tone setting, high level information, and editing
+      guidelines that are specific to a collection.
+    folder: '_posts'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          dateFormat: 'YYYY-MM-DD',
+          timeFormat: 'HH:mm',
+          format: 'YYYY-MM-DD HH:mm',
+        }
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        tagname: ''
+
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+    meta:
+      - { label: 'SEO Description', name: 'description', widget: 'text' }
+
+############
+# optional #
+############
+site_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/
+display_url: 5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com
+logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/images/logo.png
 ``` 
 * Since we're hosting on Netlify, their Identity sevice is available to wire-up identity & authentication to GitHub.
   * I've already enabled this in the Netlify hosting config following their [docs](https://www.netlifycms.org/docs/add-to-your-site/).
@@ -128,4 +170,11 @@ public_folder: "/images/uploads"
   }
 </script>
 ```
-* I'll look at the templating of blog posts and new pages later
+
+## TODO
+* Wire up CMS to enable index.html changes
+* Look at CMS setup for 
+  * creating new pages
+  * blog posts
+    * +RSS
+  * FAQ

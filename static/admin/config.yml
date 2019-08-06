@@ -1,3 +1,49 @@
+############
+# required #
+############
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+# Media files will be stored in the repo under static/images/uploads
+media_folder: "static/images/uploads" 
+# The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/images/uploads"
+# required, doesn't ahve to be in use
+media_library:
+  name: media_lib
+collections:
+  - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Posts' # Used in the UI
+    label_singular: 'Post' # Used in the UI, ie: "New Post"
+    description: >
+      The description is a great place for tone setting, high level information, and editing
+      guidelines that are specific to a collection.
+    folder: '_posts'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          dateFormat: 'YYYY-MM-DD',
+          timeFormat: 'HH:mm',
+          format: 'YYYY-MM-DD HH:mm',
+        }
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        tagname: ''
+
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+    meta:
+      - { label: 'SEO Description', name: 'description', widget: 'text' }
+############
+# optional #
+############
+site_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/
+display_url: 5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com
+logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/images/logo.png
