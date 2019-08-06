@@ -20,10 +20,14 @@ Go back up to the site folder.
 Apply any theme alterations as overrides in this folder.  This is likely to involve replacing images and CSS.
 
 Key places you might be editing are:
-* ./static/
+* `/static`
   * for images, css and favicon
-* layouts
+* `/layouts`
   * for additional page layouts or overrides to the theme
+
+In order to ensure required folders are available in the git repo, add an empty `.keep` file to the following locations:
+* `/content`
+* `/data`
 
 ## Adding Content for the Theme
 Most themes populate the content via parameters. These parameters can be provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
