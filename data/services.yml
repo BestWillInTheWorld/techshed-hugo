@@ -1,48 +1,57 @@
-enable      : true
-section_id  : "shed"
-title       : "What Happens at the Techshed"
-subtitle    : "What we do in the shedows."
-    # give icon(themefisher icon font), title, description
-    # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-    # use delay for reveal items one by one
+enable: true
+section_id: shed
+title: What Happens at the Techshed
+subtitle: What we do in the shedows.
 list:
-- { icon    : "tf-strategy",
-    title   : "Weekly Meetups",
-    description : "Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation, data science, machine learning)",
-    delay   : "0s"
-  }
-- { icon    : "tf-circle-compass",
-    title   : "Collaboration",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.2s"
-  }
-- { icon    : "tf-anchor2",
-    title   : "Learning",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.4s"
-  }
-- { icon    : "tf-globe",
-    title   : "Sharing Knowledge",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.6s"
-  }
-- { icon    : "tf-globe",
-    title   : "Open Sessions",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.8s"
-  }
-- { icon    : "tf-strategy",
-    title   : "Hackathons and Tech Talks",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.8s"
-  }
-- { icon    : "tf-anchor2",
-    title   : "Open to All",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "1.2s"
-  }
-- { icon    : "tf-circle-compass",
-    title   : "Community Projects",
-    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "1.0s"
-  }
+  - delay: 0s
+    description: >-
+      ```
+
+      Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation,
+      data science, machine learning)
+
+      ```
+    icon: tf-strategy
+    title: Weekly Meetups
+  - delay: 0.2s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-circle-compass
+    title: Collaboration
+  - delay: 0.4s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-anchor2
+    title: Learning
+  - delay: 0.6s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-globe
+    title: Sharing Knowledge
+  - delay: 0.8s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-globe
+    title: Open Sessions
+  - delay: 0.8s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-strategy
+    title: Hackathons and Tech Talks
+  - delay: 1.2s
+    description: >-
+      **Lorem ipsum dolor** sit amet, con-sectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut
+    icon: tf-anchor2
+    title: Open to All
+  - delay: 1.0s
+    description: >-
+      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut
+    icon: tf-circle-compass
+    title: Community Projects
