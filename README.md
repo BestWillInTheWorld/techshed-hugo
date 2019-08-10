@@ -26,9 +26,11 @@ There are a huge number to choose from, each using different templating and conf
 
 In addition, headless CMS can be used with most static site builders to enable easy content management without requiring developer involvement in simple changes to the text on a site, or the creation of a new web page.
 
-Initially, I've selected for its strong dev community, proven/stable reputation, quick builds and published site performance, widespread hosting support and reducing the need for contributors to learn specific frameworks to get involved.
+Initially, I've selected [*Hugo*](https://gohugo.io/) for its strong dev community, proven/stable reputation, quick builds and published site performance, widespread hosting support and reducing the need for contributors to learn specific frameworks to get involved.
 
 Eventually we may choose to move to a clientside framework (React, Vue.js etc.) based system for more power & flexibility.
+
+# Hugo
 
 ## Create New Site
 `hugo new site <sitename>`
