@@ -14,20 +14,18 @@ hero:
     teach, learn and create new things.
 about:
   description: >-
-    Through a combination of regular weekly sessions, community projects and
+    * Through a combination of regular weekly sessions, community projects and
     public events we aim to raise technical resources in Frome.
 
-
-    To enable this, satisfying the simple need for somewhere to go, share and
+    * To enable this, satisfying the simple need for somewhere to go, share and
     create with interesting, like-minded people is our starting point. 
 
+    * Through collaboration and focus on real-world projects, we'e building
+    depth of skills and understanding among members, as well as broadening
+    awareness of the opportunities and pitfalls of technology among the wider
+    community.
 
-    Through collaboration and focus on real-world projects, we'e building depth
-    of skills and understanding among members, as well as broadening awareness
-    of the opportunities and pitfalls of technology among the wider community.
-
-
-    When we bring different minds together, we believe awesome things will
+    * When we bring different minds together, we believe awesome things will
     happen!
   enable: true
   heading: Fostering technical and digital creative talent in Frome
