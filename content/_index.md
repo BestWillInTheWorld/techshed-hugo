@@ -46,7 +46,7 @@ about:
   heading: Fostering technical and digital creative talent in Frome
   slider_item:
     - image: images/about/1.jpg
-    - image: images/about/2.jpg
+    - image: /images/uploads/img_20190803_161046-1-.jpg
     - image: images/about/3.jpg
 call_to_action:
   bg: images/call-to-action.jpg
