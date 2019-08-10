@@ -94,16 +94,7 @@ collections:
             fields: 
             - {label: Enable, name: enable, widget: boolean}
             - {label: Section Id, name: section_id, widget: string}    
-      - file: "content/test/_index.md"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - label: Service Section
-            name: service_section
-            widget: list
-            fields: 
-            - {label: Enable, name: enable, widget: boolean}
-            - {label: Section Id, name: section_id, widget: string} 
+ 
 ############
 # optional #
 ############
