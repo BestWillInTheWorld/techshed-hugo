@@ -7,6 +7,7 @@ hero:
     title       : "Techshed Frome"
     subtitle    : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
     button_text : "Get Started"
+    button_url  : "#about"
 
 about:
     enable      : true
