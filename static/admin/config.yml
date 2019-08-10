@@ -51,7 +51,44 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-   
+          - label: Hero Section
+            name: hero
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Background Image, name: bg, widget: image}
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: markdown}
+            - {label: Button Text, name: button_text, widget: string}
+            - {label: Button Url, name: button_url, widget: string}
+          - label: About Section
+            name: about
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Heading, name: heading, widget: markdown}
+            - {label: Description, name: description, widget: markdown}
+            - label: Slider Items
+              name: slider_item
+              widget: list
+              fields:
+              - {label: Image, name: image, widget: image}
+          - label: Call to Action
+            name: call_to_action
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Background Image, name: bg, widget: image}
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: markdown}
+          - label: Contact Section
+            name: contact
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: markdown}
+          - label: Service Section
+            name: service_section
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Section Id, name: section_id, widget: string} 
  
 ############
 # optional #
