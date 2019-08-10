@@ -22,9 +22,12 @@ list:
     icon: tf-anchor2
     title: Learning
   - delay: 0.6
-    description: >-
-      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+    description: |-
+      | a | table |
+      | -: | :- |
+      |     of | all |
+      |     of the | things |
+      |     in | the world |
     icon: tf-globe
     title: Sharing Knowledge
   - delay: 0.8
