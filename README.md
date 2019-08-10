@@ -224,10 +224,10 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
     * this is useful to share simple, but repeated data like navigation lists and more complex data that is either repeated, or is better managed separately from the page-specific `/content/` files
     * Note: if running locally via `hugo server` `/data/` doesn't appear to hot-reload - needs the hugo dev server/service restarting
 * [x] cleaning up syntax issues inherited from the original theme
-* [ ] working on `baseof.html` to pull in standard partials for each page
+* [x] working on `baseof.html` to pull in standard partials for each page
   * Note: each page will need its own params to satisfy anything passed to that template, unless the baseof is passing global data
   * Example addtional page added as `/test`, sharing the `service.html` that's used in the homepage.  It makes use of the global `/data/services.yml` file.
-* [ ] Netlify CMS for managing `/data/*`
+* [x] Netlify CMS for managing `/data/navigaion.yml` & `/data/services.yml`
 
 ## TODO
 * Wire up CMS to enable index.html changes
@@ -235,8 +235,10 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
     * this will take over from the theme's original setup of populating the content from the global `config.toml` parameters
     * plus needs definitions adding to the CMS config file: `/static/admin/config.yml`
   * use https://github.com/netlify-templates/one-click-hugo-cms/blob/master/site/ as a guide
+  * + https://www.netlifycms.org/docs/collection-types/
 * Look at CMS setup for 
   * creating new pages
   * blog posts
     * +RSS
   * FAQ
+* Rework the `baseof.html` to have specific versions for singles and lists + move any pages-specific `<head>` contents into the layout template for those pages (e.g. enabling custom CSS to be pulled in on specific pages)
