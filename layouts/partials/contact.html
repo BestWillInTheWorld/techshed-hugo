@@ -1,4 +1,4 @@
-{{ if .Site.Params.contact.enable }}
+{{ if .enable }}
     {{"<!-- Contact Section -->" | safeHTML}}
     <section id="contact" class="section contact">
         <div class="container">
@@ -6,12 +6,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="block">
                         <div class="heading wow fadeInUp">
-                            {{ with .Site.Params.contact.title }}
-                            <h2>{{ . }}</h2>
-                            {{ end }}
-                            {{ with .Site.Params.contact.subtitle }}
-                                <p>{{ . }}</p>
-                            {{ end }}
+                            <h2>{{ .title }}</h2>
+                            <p>{{ .subtitle }}</p>
                         </div>
                     </div>
                 </div>
