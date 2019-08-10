@@ -30,7 +30,7 @@ Initially, I've selected [*Hugo*](https://gohugo.io/) for its strong dev communi
 
 Eventually we may choose to move to a clientside framework (React, Vue.js etc.) based system for more power & flexibility.
 
-# Hugo
+# Techshed-Hugo
 
 ## Create New Site
 `hugo new site <sitename>`
@@ -63,7 +63,9 @@ In order to ensure required folders are available in the git repo, add an empty 
 * `/public`
 
 ## Adding Content for the Theme
-Most themes populate the content via parameters. These parameters can be provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
+Most themes populate the content via parameters or via markdown files in `/content/` and/or structured data files in `/data`. 
+
+Our initial theme uses only data from the config parameters. These parameters were provided to the site via the Hugo config file (config.toml, config.json or config.yaml).
 
 The Hugo config enables scoping of parameters to a specific namespace within the site e.g. to make it simpler to address values intended for the "navigation" partial layout for our theme, we can use:
 
