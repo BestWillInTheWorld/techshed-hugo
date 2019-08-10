@@ -242,3 +242,14 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
     * +RSS
   * FAQ
 * Rework the `baseof.html` to have specific versions for singles and lists + move any pages-specific `<head>` contents into the layout template for those pages (e.g. enabling custom CSS to be pulled in on specific pages)
+
+# Links
+* https://www.mikedane.com/static-site-generators/hugo/partial-templates/
+* https://www.mikedane.com/static-site-generators/hugo/block-templates/
+* https://www.mikedane.com/static-site-generators/hugo/data-templates/
+* https://gohugo.io/content-management/organization/
+* https://gohugo.io/content-management/sections/
+* https://gohugo.io/templates/data-templates/
+* https://harrycresswell.com/articles/data-hugo/
+* Interesting post looping through pages: https://discourse.gohugo.io/t/load-multiple-content-files-in-a-single-template/2566
+* https://github.com/netlify-templates/one-click-hugo-cms/tree/master/site/content
