@@ -96,9 +96,13 @@ collections:
         label: "Test Page"
         name: "test"
         fields:
+          - label: Service Section
+            name: service_section
+            widget: object
+            fields: 
             - {label: Enable, name: enable, widget: boolean}
             - {label: Section Id, name: section_id, widget: string} 
-            
+
 ############
 # optional #
 ############
