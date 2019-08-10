@@ -1,28 +1,24 @@
-{{ if .Site.Params.about.enable }}
-    {{"<!-- About Section -->" | safeHTML}}
-    <section id="about" class="section about bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-12 wow fadeInLeft">
-                    <div class="content">
-                        <div class="sub-heading">
-                        {{ with .Site.Params.about.heading }}
-                            <h3>{{ . }}</h3>
-                        {{ end }}
-                        </div>
-                        {{ with .Site.Params.about.description }}
-                            <p>{{ . | markdownify }}</p>
-                        {{ end }}
+{{ if .enable }}
+{{"<!-- About Section -->" | safeHTML}}
+<section id="about" class="section about bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                <div class="content">
+                    <div class="sub-heading">
+                        <h3>{{ .heading }}</h3>
                     </div>
+                    <p>{{ .description | markdownify }}</p>
                 </div>
-                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="about-slider">
-                        {{ range .Site.Params.about.sliderItem }}
-                            <img src="{{ .image }}" alt="slider-image">
-                        {{ end }}
-                    </div>
+            </div>
+            <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="about-slider">
+                    {{ range .slider_item }}
+                    <img src="{{ .image }}" alt="slider-image">
+                    {{ end }}
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 {{ end }}

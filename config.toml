@@ -4,16 +4,6 @@ title = "Techshed Frome"
 theme = "infinity-hugo"
 
 [params]
-
-    # About Section
-    [params.about]
-        enable      = true
-        heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
-
-        [[params.about.sliderItem]]
-            image   = "images/about/1.jpg"
-
     
     # Service Section
     [params.service]
