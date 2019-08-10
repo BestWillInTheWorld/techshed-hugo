@@ -23,11 +23,11 @@ list:
     title: Learning
   - delay: 0.6
     description: |-
-      | a | table |
-      | -: | :- |
-      |     of | all |
-      |     of the | things |
-      |     in | the world |
+      a | table 
+      -: | :- 
+      of | all 
+      of the | things 
+      in | the world 
     icon: tf-globe
     title: Sharing Knowledge
   - delay: 0.8
