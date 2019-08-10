@@ -1,12 +1,12 @@
-{{ if .Site.Params.cta.enable }}
+{{ if .enable }}
     {{"<!-- Call To Action Section -->" | safeHTML}}
-    <section id="signup" class="call-to-action" style='background-image: url("{{ .Site.Params.cta.bg }}")' >
+    <section id="signup" class="call-to-action" style='background-image: url("{{ .bg }}")' >
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow text-center">
                     <div class="block">
-                        <h2>{{ .Site.Params.cta.title }}</h2>
-                        <p>{{ .Site.Params.cta.subtitle  }}</p>
+                        <h2>{{ .title }}</h2>
+                        <p>{{ .subtitle  }}</p>
                         <div class="col-lg-6 offset-lg-3">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Your Email Address Here">
