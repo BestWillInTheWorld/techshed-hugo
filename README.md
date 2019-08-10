@@ -211,6 +211,10 @@ logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/i
 ```
 After that setup, the CMS allows me to signup (against this sepcific site) and log in.  I managed to upload an image to test the connection to GitHub, but since I've not set up the structure for "Posts" (or any pages) yet in the Hugo config, there's not much else to show yet...
 
+# In Progress
+
+* moving params over to `/content/*.md` files for better content management
+* cleaning up syntax issues inherited from the original theme
 
 ## TODO
 * Wire up CMS to enable index.html changes
