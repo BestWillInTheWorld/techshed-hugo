@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Techshed Frome"
+subtitle: ""
 hero:
     enable      : true
     bg          : "images/header-bg.jpg"
@@ -31,4 +31,11 @@ call_to_action:
     bg          : "images/call-to-action.jpg"
     title       : "Subscribe to our mailing list"
     subtitle    : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+
+service_section:
+    enable      : true
+    title       : "What Happens at the Techshed"
+    subtitle    : "What we do in the shedows."
+
 ---

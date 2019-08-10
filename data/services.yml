@@ -1,0 +1,43 @@
+    # give icon(themefisher icon font), title, description
+    # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+    # use delay for reveal items one by one
+- { icon    : "tf-strategy",
+    title   : "Weekly Meetups",
+    description : "Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation, data science, machine learning)",
+    delay   : "0s"
+  }
+- { icon    : "tf-circle-compass",
+    title   : "Collaboration",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "0.2s"
+  }
+- { icon    : "tf-anchor2",
+    title   : "Learning",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "0.4s"
+  }
+- { icon    : "tf-globe",
+    title   : "Sharing Knowledge",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "0.6s"
+  }
+- { icon    : "tf-globe",
+    title   : "Open Sessions",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "0.8s"
+  }
+- { icon    : "tf-strategy",
+    title   : "Hackathons and Tech Talks",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "0.8s"
+  }
+- { icon    : "tf-anchor2",
+    title   : "Open to All",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "1.2s"
+  }
+- { icon    : "tf-circle-compass",
+    title   : "Community Projects",
+    description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
+    delay   : "1.0s"
+  }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html class="no-js" lang="{{ if .Site.LanguageCode }}{{ .Site.LanguageCode }}{{ else }}en-US{{ end }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> {{ .Site.Title }} </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     {{"<!-- Fonts -->" | safeHTML }}
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     {{ "<!-- Stylesheets -->" | safeHTML }}
