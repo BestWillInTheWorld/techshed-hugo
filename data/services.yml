@@ -23,8 +23,10 @@ list:
     title: Learning
   - delay: 0.6
     description: >-
-      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      I can't get `Markdown` tables to work in **Hugo**.
+
+      And the Layout of these items depends too much on the amount of text they
+      contain.
     icon: tf-globe
     title: Sharing Knowledge
   - delay: 0.8
