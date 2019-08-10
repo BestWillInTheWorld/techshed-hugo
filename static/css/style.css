@@ -436,6 +436,12 @@ a:active {
   width: 100%;
   height: auto;
 }
+.about p{
+  padding-top:36px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: lighter;
+}
 
 /*--
     call-to-action start
