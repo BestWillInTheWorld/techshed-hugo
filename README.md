@@ -253,3 +253,5 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
 * https://harrycresswell.com/articles/data-hugo/
 * Interesting post looping through pages: https://discourse.gohugo.io/t/load-multiple-content-files-in-a-single-template/2566
 * https://github.com/netlify-templates/one-click-hugo-cms/tree/master/site/content
+* NetlifyCMS content editing widgets: https://www.netlifycms.org/docs/widgets/list/#boolean
+* Original theme used as the base for this site: https://github.com/themefisher/infinity-hugo

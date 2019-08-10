@@ -76,6 +76,10 @@ a:active {
   text-decoration: none;
 }
 
+.attribution {
+  margin: 14px 0 4px;
+}
+
 .section {
   padding: 100px 0;
 }
