@@ -4,12 +4,11 @@ title: What Happens at the Techshed
 subtitle: What we do in the shedows.
 list:
   - delay: 0s
-    description: >-
+    description: |-
       ```
-
-      Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation,
-      data science, machine learning)
-
+      Coding (web, Python, .Net, iOS), 
+      microcontrollers, 
+      data (visualisation, data science, machine learning)
       ```
     icon: tf-strategy
     title: Weekly Meetups
