@@ -5,15 +5,6 @@ theme = "infinity-hugo"
 
 [params]
 
-    # Navigation
-    [params.navigation]
-        logo = "images/logo.png"
-        home = "Home"
-        about = "About"
-        service = "What"
-        posts = "Blog"
-        contact = "Contact"
-
     # About Section
     [params.about]
         enable      = true

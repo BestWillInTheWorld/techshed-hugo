@@ -6,23 +6,17 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6" style="margin-top: 30em">
                     <div class="block">
-                        {{ with .title }} 
                         <h1 class="wow fadeInDown hero-text" data-wow-delay="0.3s" data-wow-duration=".2s">
-                            {{ . }}
+                            {{ .title }}
                         </h1>
-                        {{ end }}
-                        {{ with .subtitle }}
                         <p class="wow fadeInDown hero-text" data-wow-delay="0.5s" data-wow-duration=".5s">
-                            {{ . }}
+                            {{ .subtitle }}
                         </p>
-                        {{ end }}
-                        {{ with .btnText }}
                         <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
                             <a class="btn btn-home" href="#about" role="button">
-                                {{ . }}
+                                {{ .button_text }}
                             </a>
                         </div>
-                        {{ end }}
                     </div>
                 </div>
             </div>
