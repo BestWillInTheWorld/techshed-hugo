@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+{{ partial "preloader.html" . }}
+{{ partial "navigation.html" $.Site.Data.navigation  }}
+    {{ block "main" . }}
+    {{end}}
+{{ partial "footer.html" . }}

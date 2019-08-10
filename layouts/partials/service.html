@@ -1,13 +1,13 @@
-{{/*  {{ if .service_section.enable }} */}}
+{{ if .service_section.enable }}
     {{"<!-- Service Section -->" | safeHTML}}
-    <section id="service" class="service section">
+    <section id="{{ .service_section.section_id }}" class="service section">
         <div class="container">
             <div class="row">
                 <div class="heading wow fadeInUp">
-                        <h2>{{ .service_section.title }}</h2>
-                        <p>{{ .service_section.subtitle }}</p>
+                        <h2>{{ .data.title }}</h2>
+                        <p>{{ .data.subtitle }}</p>
                 </div>
-                {{ range .data }}
+                {{ range .data.list }}
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
                         <div class="block">
                             <i class="{{ .icon }}"></i>
@@ -19,4 +19,4 @@
             </div>
         </div>
     </section>
-{{/*  {{ end }}  */}}
+{{ end }}

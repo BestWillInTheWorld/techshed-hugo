@@ -1,18 +1,8 @@
-{{ partial "header.html" . }}
-
-{{ partial "preloader.html" . }}
-
-{{ partial "navigation.html" .Params.navigation  }}
-
-{{ partial "hero-area.html" .Params.hero }}
-
-{{ partial "about.html" .Params.about }}
-
-{{ partial "service.html" (dict "service_section" .Params.service_section "data" $.Site.Data.services) }}
-
-{{ partial "call-to-action.html" .Params.call_to_action }}
-
-{{ partial "contact.html" .Params.contact }}
-
-{{ partial "footer.html" . }}
+{{define "main"}}
+    {{ partial "hero-area.html" .Params.hero }}
+    {{ partial "about.html" .Params.about }}
+    {{ partial "service.html" (dict "service_section" .Params.service_section "data" $.Site.Data.services) }}
+    {{ partial "call-to-action.html" .Params.call_to_action }}
+    {{ partial "contact.html" .Params.contact }}
+{{end}}
 

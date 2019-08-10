@@ -1,0 +1,7 @@
+logo    : "/images/logo.png"
+links:
+- {text: "Home"         ,  url : "/#top" }
+- {text: "About"        ,  url : "/#about" }
+- {text: "What We Do"   ,  url : "/#service" }
+- {text: "Blog"         ,  url : "/#signup" }
+- {text: "Contact"      ,  url : "/#contact" }

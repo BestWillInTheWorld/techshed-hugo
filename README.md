@@ -211,10 +211,23 @@ logo_url: https://5d49a1a8b2cb050008f19ee6--mystifying-bose-12c84e.netlify.com/i
 ```
 After that setup, the CMS allows me to signup (against this sepcific site) and log in.  I managed to upload an image to test the connection to GitHub, but since I've not set up the structure for "Posts" (or any pages) yet in the Hugo config, there's not much else to show yet...
 
+### Moving data over to content/data sections
+
 # In Progress
 
-* moving params over to `/content/*.md` files for better content management
-* cleaning up syntax issues inherited from the original theme
+* [x] moving params over to `/content/**/*.md` files for better content management
+  * Data within a `/content/_index.md` file is restricted in scope a single page
+    * the file format allows a header section specifying parameters/structured data (yaml syntax) with literal markdown in a `Content` section below that (which is accessed via `.Params.Content` within a template)
+    * only one markdown file (`_index.md`) file allowed in root of `/content/`
+    * Subdirectories within `/content/` can each have their own `_index.md` as well as additional markdown content files
+  * Files in `/data/` provide data globally across the site. (I've stuck with yaml, but other formats are supported)
+    * this is useful to share simple, but repeated data like navigation lists and more complex data that is either repeated, or is better managed separately from the page-specific `/content/` files
+    * Note: if running locally via `hugo server` `/data/` doesn't appear to hot-reload - needs the hugo dev server/service restarting
+* [x] cleaning up syntax issues inherited from the original theme
+* [ ] working on `baseof.html` to pull in standard partials for each page
+  * Note: each page will need its own params to satisfy anything passed to that template, unless the baseof is passing global data
+  * Example addtional page added as `/test`, sharing the `service.html` that's used in the homepage.  It makes use of the global `/data/services.yml` file.
+* [ ] Netlify CMS for managing `/data/*`
 
 ## TODO
 * Wire up CMS to enable index.html changes

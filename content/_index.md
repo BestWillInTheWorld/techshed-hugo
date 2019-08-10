@@ -8,15 +8,6 @@ hero:
     subtitle    : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
     button_text : "Get Started"
 
-navigation:
-    logo    : "images/logo.png"
-    links:
-    - {text: "Home"         ,  url : "#top" }
-    - {text: "About"        ,  url : "#about" }
-    - {text: "What We Do"   ,  url : "#service" }
-    - {text: "Blog"         ,  url : "#signup" }
-    - {text: "Contact"      ,  url : "#contact" }
-
 about:
     enable      : true
     heading     : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
@@ -35,8 +26,7 @@ call_to_action:
 
 service_section:
     enable      : true
-    title       : "What Happens at the Techshed"
-    subtitle    : "What we do in the shedows."
+    section_id  : "service"
 
 contact:
     enable      : true

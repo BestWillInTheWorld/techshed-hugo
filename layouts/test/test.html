@@ -1,0 +1,3 @@
+{{define "main"}}
+    {{ partial "service.html" (dict "service_section" .Params.service_section "data" $.Site.Data.services) }}
+{{end}}

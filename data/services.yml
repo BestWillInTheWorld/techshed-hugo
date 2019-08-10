@@ -1,6 +1,11 @@
+enable      : true
+section_id  : "shed"
+title       : "What Happens at the Techshed"
+subtitle    : "What we do in the shedows."
     # give icon(themefisher icon font), title, description
     # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
     # use delay for reveal items one by one
+list:
 - { icon    : "tf-strategy",
     title   : "Weekly Meetups",
     description : "Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation, data science, machine learning)",
