@@ -1,12 +1,34 @@
-# techshed-hugo
+# Techshed Website
 
-Which static site builder?
+The intention of this project is to explore options for free static web site hosting and CMS capabilities from modern providers, making use of a static site builder for performant, hard to break (intentionally or otherwise), accessible content delivery on the web.
+
+* A content Management System (CMS) will be required to simplify maitenance of content and of posting new content reliably.
+* Another key aim is to provide a facility for Blog posts to be added without the need for any paid services, using purely static hosting
+  * A generated RSS feed is likely to follow to enable distribution and triggering of emails etc. from a sinble blog post
+
+Other desirable content to support include:
+* Projects: Pages to list and host content relating to community projects
+  * This would include the ability to add new project pages via the CMS (rather than hand-coding or copying HTML for each)
+* FAQ: should be an easy to add to CMS-controlled list
+* Structured data (e.g. [schema.org](https://schema.org/docs/search_results.html?q=meetup)) for meetup info (dates/subjects/location)
+* Skills matrix - visual representation
+* Embedded/interactive map (for finding the location)
+* Image Gallery
+* Link to a donations option
+* Forms:
+  * Email signup (wired into a 3rd party mail signup service through client-side calls)
+  * Membership form filling/submission (mechanism tbd)
+  * Feedback form
+
+## Which static site builder?
 
 There are a huge number to choose from, each using different templating and configutation.  Some build faster, some give access to more modern PWA features or SPA structure.  Most provide really performant, secure way to build static content, allowing a variety of options for free, reliable hosting.
 
 In addition, headless CMS can be used with most static site builders to enable easy content management without requiring developer involvement in simple changes to the text on a site, or the creation of a new web page.
 
 Initially, I've selected for its strong dev community, proven/stable reputation, quick builds and published site performance, widespread hosting support and reducing the need for contributors to learn specific frameworks to get involved.
+
+Eventually we may choose to move to a clientside framework (React, Vue.js etc.) based system for more power & flexibility.
 
 ## Create New Site
 `hugo new site <sitename>`
