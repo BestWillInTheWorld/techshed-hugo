@@ -29,8 +29,8 @@ collections:
             fields:
             - {label: Title, name: title, widget: string}
             - {label: Description, name: description, widget: markdown}
-            - {label: Icon, name: icon, widget: string}
-            - {label: Delay, name: delay, widget: string}
+            - {label: Icon CSS Class, name: icon, widget: string}
+            - {label: Delay in Seconds, name: delay, widget: number, valueType: float, step: 0.1, min: 0}
       - label: "Navigation"
         name: "navigation"
         file: "data/navigation.yml"

@@ -9,27 +9,27 @@ list:
 - { icon    : "tf-strategy",
     title   : "Weekly Meetups",
     description : "Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation, data science, machine learning)",
-    delay   : "0s"
+    delay   : 0.0
   }
 - { icon    : "tf-circle-compass",
     title   : "Collaboration",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.2s"
+    delay   : 0.2
   }
 - { icon    : "tf-anchor2",
     title   : "Learning",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.4s"
+    delay   : 0.4
   }
 - { icon    : "tf-globe",
     title   : "Sharing Knowledge",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.6s"
+    delay   : 0.6
   }
 - { icon    : "tf-globe",
     title   : "Open Sessions",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "0.8s"
+    delay   : 0.8
   }
 - { icon    : "tf-strategy",
     title   : "Hackathons and Tech Talks",
@@ -39,10 +39,10 @@ list:
 - { icon    : "tf-anchor2",
     title   : "Open to All",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "1.2s"
+    delay   : 1.2
   }
 - { icon    : "tf-circle-compass",
     title   : "Community Projects",
     description : "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut",
-    delay   : "1.0s"
+    delay   : 1.0
   }
