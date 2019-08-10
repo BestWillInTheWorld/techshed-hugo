@@ -283,6 +283,7 @@ a:active {
 }
 
 .hero-area {
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -303,38 +304,6 @@ a:active {
   color: #fff;
   font-size: 20px;
   line-height: 1.3;
-}
-
-.hero-area .counter {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 18px;
-}
-
-.hero-area .counter ul li {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #fff;
-  display: inline-block;
-  line-height: 25px;
-  padding: 25px 28px 20px;
-  text-align: center;
-  width: 49%;
-  margin-bottom: 3px;
-}
-
-.hero-area .counter ul li span {
-  display: block;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.hero-area .counter ul li .digit {
-  display: inline-block;
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 50px;
-  position: relative;
-  overflow: hidden;
-  height: 60px;
 }
 
 @media only screen and (max-width:400px) {
