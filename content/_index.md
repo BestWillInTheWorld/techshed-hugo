@@ -11,19 +11,9 @@ hero:
 navigation:
     logo    : "images/logo.png"
     links:
-    - link:  
-        text: "Home" 
-        url : "#" 
-    - link:  
-        text: "About" 
-        url : "#about" 
-    - link:  
-        text: "What" 
-        url : "#service" 
-    - link:  
-        text: "Blog" 
-        url : "#signup" 
-    - link:  
-        text: "Contact" 
-        url : "#contact" 
+    - {text: "Home"         ,  url : "#top" }
+    - {text: "About"        ,  url : "#about" }
+    - {text: "What We Do"   ,  url : "#service" }
+    - {text: "Blog"         ,  url : "#signup" }
+    - {text: "Contact"      ,  url : "#contact" }
 ---

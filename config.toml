@@ -19,7 +19,7 @@ theme = "infinity-hugo"
     [params.service]
         enable      = true
         title       = "What Happens at the Techshed"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        subtitle    = "What we do in the shedows."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
