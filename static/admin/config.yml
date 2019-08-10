@@ -17,7 +17,7 @@ collections:
     files:
       - label: "Services"
         name: "services"
-        file: "site/data/services.yml"
+        file: "data/services.yml"
         fields:
           - {label: Enable, name: enable, widget: boolean}
           - {label: section_id, name: section_id, widget: string}
@@ -33,7 +33,7 @@ collections:
             - {label: Delay, name: delay, widget: string}
       - label: "Navigation"
         name: "navigation"
-        file: "site/data/navigation.yml"
+        file: "data/navigation.yml"
         fields:
           - {label: Logo, name: logo, widget: image}
           - label: Links
