@@ -22,7 +22,7 @@ collections:
           - {label: Enable, name: enable, widget: boolean}
           - {label: section_id, name: section_id, widget: string}
           - {label: title, name: title, widget: string}
-          - {label: subtitle, name: subtitle, widget: boolestringan}
+          - {label: subtitle, name: subtitle, widget: string}
           - label: List
             name: list
             widget: list
