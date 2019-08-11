@@ -45,11 +45,11 @@ list:
     description: >-
       Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut
-    icon: tf-anchor2
+    icon: tf-circle-compass
     title: Open to All
   - delay: 1.4
     description: >-
       Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut
-    icon: tf-circle-compass
+    icon: ' tf-anchor2'
     title: Community Projects
