@@ -4,7 +4,7 @@ subtitle: >-
   At Techshed we're building a community of tech makers to enhance skills,
   teach, learn and create new things.
 hero:
-  bg: images/header-bg.jpg
+  bg: /images/uploads/header-bg-reversed.jpg
   button_text: Tell me more!
   button_url: '#about'
   enable: true
