@@ -291,9 +291,10 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;  
-  background: center top no-repeat fixed;
-  /* background-size: cover; not working in iOS, use 100% instead */
-  background-size: 100%;
+  background-size: auto 100vmax;/* acheives 'cover' but works in iOS */
+  background-position: 40% 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hero-area h1 {
@@ -453,10 +454,10 @@ a:active {
 .call-to-action {
   padding: 90px 0px;
   position: relative;
-  background: center center no-repeat fixed;
-  /* background-size: cover not working in iOS (makes a badly scaled image)
-  - if we use 100% instead, at least we don't get a badly scaled image as iOS drops the mage altogether */
-  background-size: 100%;
+  background-size: cover;
+  background-position: 40% 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .call-to-action:before {
