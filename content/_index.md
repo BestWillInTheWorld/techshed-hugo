@@ -5,7 +5,7 @@ subtitle: >-
   teach, learn and create new things.
 hero:
   bg: images/header-bg.jpg
-  button_text: Say What?
+  button_text: Tell me more!
   button_url: '#about'
   enable: true
   title: Techshed Frome
