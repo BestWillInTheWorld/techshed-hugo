@@ -287,13 +287,13 @@ a:active {
 }
 
 .hero-area {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  background: center top no-repeat fixed;
+  /* background-size: cover; not working in iOS, use 100% instead */
+  background-size: 100%;
 }
 
 .hero-area h1 {
@@ -332,7 +332,11 @@ a:active {
   }
 }
 .hero-text {
-  text-shadow: 0px 0px 8px rgba(58, 58, 58, 0.3);
+  text-shadow: 0px 0px 8px rgba(58, 58, 58, 0.6);
+}
+
+.hero-text-subtitle {
+  text-shadow: 0px 0px 8px rgba(0,0,0, 1);
 }
 /* .hero-area  */
 .navigation {
@@ -448,10 +452,11 @@ a:active {
 --*/
 .call-to-action {
   padding: 90px 0px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
+  background: center center no-repeat fixed;
+  /* background-size: cover not working in iOS (makes a badly scaled image)
+  - if we use 100% instead, at least we don't get a badly scaled image as iOS drops the mage altogether */
+  background-size: 100%;
 }
 
 .call-to-action:before {

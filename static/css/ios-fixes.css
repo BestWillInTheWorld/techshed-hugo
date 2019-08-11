@@ -1,8 +1,0 @@
-@media only screen and (min-width: 768px) {
-  .hero-area,
-  .call-to-action {
-    --webkit-background-attachment: scroll !important;
-    background-position: center;
-    background-size: cover;
-  }
-}
