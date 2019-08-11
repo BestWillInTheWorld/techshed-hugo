@@ -290,9 +290,11 @@ a:active {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;  
-  background-size: auto 100vmax;/* acheives 'cover' but works in iOS */
-  background-position: 40% 0%;
+  align-items: center;
+  background-size: auto 100vmax;
+  /* background-size: auto 150vh; */
+  /* acheives something close to 'cover' but works in iOS */
+  background-position: 60% 0%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
