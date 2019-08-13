@@ -92,6 +92,17 @@ collections:
             fields: 
             - {label: Enable, name: enable, widget: boolean}
             - {label: Section Id, name: section_id, widget: string} 
+          - label: Find Us
+            name: find_us
+            widget: object
+            fields: 
+            - {label: Enable, name: enable, widget: boolean}
+            - {label: Section Id, name: section_id, widget: string} 
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: markdown}
+            - {label: map_base_url, name: map_base_url, widget: string}
+            - {label: map_api_key, name: map_api_key, widget: string}
+            - {label: map_search, name: map_search, widget: string}
       - file: "content/test/_index.md"
         label: "Test Page"
         name: "test"

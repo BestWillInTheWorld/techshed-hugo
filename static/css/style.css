@@ -552,6 +552,14 @@ a:active {
   margin-top: 10px;
 }
 
+.map-container .block{
+  margin: 0 auto 50px auto;
+}
+
+.map-container p {
+  margin-bottom: 25px;
+}
+
 #success,
 #error {
   display: none;

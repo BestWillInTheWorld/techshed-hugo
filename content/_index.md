@@ -62,5 +62,12 @@ contact:
 service_section:
   enable: true
   section_id: service
+find_us:
+  enable: true  
+  title: Techshed Frome
+  subtitle: >-
+    Find us at the Welshmill Hub in Frome
+  map_base_url: https://www.google.com/maps/embed/v1/place
+  map_api_key: AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc
+  map_search: Techshed Frome
 ---
-
