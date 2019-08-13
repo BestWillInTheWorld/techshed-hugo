@@ -6,11 +6,11 @@ links:
     url: '/#about'
   - text: What We Do
     url: '/#service'
-  - text: Blog
-    url: '/#signup'
   - text: Contact
     url: '/#contact'
   - text: Test
     url: /test
   - text: TODO
     url: 'https://trello.com/b/z23NtQ2M/techshed-todo'
+  - text: Find Us
+    url: '/#find-us'
