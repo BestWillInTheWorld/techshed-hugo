@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ if .Site.LanguageCode }}{{ .Site.LanguageCode }}{{ else }}en-US{{ end }}">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ hugo.Generator }}
     {{"<!-- Fonts -->" | safeHTML }}
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+        rel="stylesheet">
     {{ "<!-- Stylesheets -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" }}">
     <link rel="stylesheet" href="{{ "/css/themefisher-fonts.css" }}">
@@ -19,6 +21,15 @@
     {{"<!-- Responsive Stylesheet -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "/css/responsive.css" }}">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+        CMS.registerPreviewStyle("/css/bootstrap.min.css");
+        CMS.registerPreviewStyle("/css/themefisher-fonts.css");
+        CMS.registerPreviewStyle("/css/font-awesome.min.css");
+        CMS.registerPreviewStyle("/css/owl.carousel.css");
+        CMS.registerPreviewStyle("/css/animate.css");
+        CMS.registerPreviewStyle("/css/style.css");
+        CMS.registerPreviewStyle("/css/responsive.css");
+    </script>
 </head>
 
 <body id="body">
