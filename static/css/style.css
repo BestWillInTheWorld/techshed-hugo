@@ -454,7 +454,7 @@ a:active {
     call-to-action start
 --*/
 .call-to-action {
-  padding: 90px 0px;
+  padding: 60px 0px 40px;
   position: relative;
   background-size: cover;
   background-position: 70% 0%;
@@ -506,6 +506,20 @@ a:active {
   font-weight: bold;
 }
 
+.email {
+      max-width: 500px;
+      margin: 20px auto 40px;
+}
+
+.mailchimp {
+  width: 100%;
+  min-height: 410px;
+  max-width: 500px;
+  margin: 25px auto;
+  border: none;
+}
+
+
 .input-field .form-control {
   box-shadow: none;
   background: #f5f5f5;
@@ -553,7 +567,7 @@ a:active {
 }
 
 .map-container .block{
-  margin: 0 auto 50px auto;
+  margin: 50px auto 50px auto;
 }
 .map-container p {
   margin-bottom: 25px;
@@ -594,4 +608,11 @@ footer p a {
 footer p a:hover {
   color: #fff;
   text-decoration: none;
+}
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
 }

@@ -1,23 +1,23 @@
 {{ if .enable }}
-    {{"<!-- Call To Action Section -->" | safeHTML}}
-    <section id="signup" class="call-to-action" style='background-image: url("{{ .bg }}");' >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow text-center">
-                    <div class="block">
-                        <h2>{{ .title }}</h2>
-                        <p>{{ .subtitle  }}</p>
-                        <div class="col-lg-6 offset-lg-3">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Your Email Address Here">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default btn-subscription" type="button">Subscribe</button>
-                                </span>
-                            </div>
-                        </div>
+{{"<!-- Call To Action Section -->" | safeHTML}}
+<section id="signup" class="call-to-action" style='background-image: url("{{ .bg }}");'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow text-center">
+                <div class="block">
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .subtitle | markdownify }}</p>
+                    <div class="input-group email" style="display: none">
+                        <input type="text" class="form-control" placeholder="Your Email Address Here">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-subscription" type="button">Subscribe</button>
+                        </span>
                     </div>
+                    <iframe class="mailchimp" src="https://mailchi.mp/9e172547dcbe/gvp18zpdi7" ></iframe>
+                    <p class="no-margin no-padding">{{ .subtext | markdownify }}</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 {{ end }}
