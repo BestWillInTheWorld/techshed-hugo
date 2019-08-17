@@ -7,7 +7,7 @@ list:
     description: >-
       Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation,
       data science, machine learning)
-    icon: tf-strategy
+    icon: tf-globe
     title: Weekly Meetups
   - delay: 0.2
     description: >-
