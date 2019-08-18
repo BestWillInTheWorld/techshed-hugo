@@ -6,8 +6,6 @@ links:
     url: '/#about'
   - text: What We Do
     url: '/#service'
-  - text: Test
-    url: /test
   - text: Find Us
     url: '/#find-us'
   - text: Community
