@@ -11,8 +11,8 @@ list:
     title: Weekly Meetups
   - delay: 0.2
     description: >-
-      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      Test Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut
     icon: tf-circle-compass
     title: Collaboration
   - delay: 0.4
