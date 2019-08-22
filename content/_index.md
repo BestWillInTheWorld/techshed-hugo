@@ -30,23 +30,22 @@ about:
 
     When we bring different minds together, we believe awesome things will
     happen!
-
   enable: true
   heading: Fostering technical and digital creative talent in Frome
   slider_item:
     - image: images/about/1.jpg
+    - image: /images/uploads/screenshot-2019-08-22-at-11.55.17.png
     - image: /images/uploads/img_20190803_161046-1-.jpg
 call_to_action:
   bg: images/call-to-action.jpg
   enable: true
   title: Subscribe to our mailing list
   subtitle: >-
-    Give us your email and we'll keep you updated on the latest Frome Tech Shed news. 
+    Give us your email and we'll keep you updated on the latest Frome Tech Shed
+    news. 
 
 
     You can un-subscribe at any time.
-  subtext: >-
-    We won't do anything else with your email. We promise!
 contact:
   enable: false
   title: Get In Touch
@@ -58,13 +57,12 @@ service_section:
   enable: true
   section_id: service
 find_us:
-  enable: true  
-  title: Techshed Frome
-  subtitle: >-
-    Find us at the Welshmill Hub in Frome
-  map_base_url: https://www.google.com/maps/embed/v1/place
+  enable: true
   map_api_key: AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc
+  map_base_url: 'https://www.google.com/maps/embed/v1/place'
   map_search: Techshed Frome
-  map_centre: 51.2359691,-2.3203596
-  map_zoom: 16
+  section_id: find-us
+  title: Techshed Frome
+  subtitle: Find us at the Welshmill Hub in Frome
 ---
+
