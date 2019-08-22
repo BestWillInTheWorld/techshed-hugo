@@ -504,12 +504,12 @@ a:active {
     About start
 --*/
 .about .content h3 {
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 36px;
   color: #7e7e7e;
   margin-bottom: 20px;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about .about-slider img {
