@@ -104,6 +104,7 @@ collections:
             - {label: map_api_key, name: map_api_key, widget: string}
             - {label: map_search, name: map_search, widget: string}
             - {label: map_centre, name: map_centre, widget: string}
+            - {label: map_zoom, name: map_zoom, widget: number, valueType: integer, step: 1, min: 0}
       - file: "content/test/_index.md"
         label: "Test Page"
         name: "test"
