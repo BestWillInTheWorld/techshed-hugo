@@ -59,9 +59,9 @@ find_us:
   enable: true
   map_api_key: AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc
   map_base_url: 'https://www.google.com/maps/embed/v1/place'
+  map_centre: '51.2359691,-2.3203596'
   map_search: Techshed Frome
-  map_centre: 51.2359691,-2.3203596
-  map_zoom: 15
+  map_zoom: 16
   section_id: find-us
   title: Techshed Frome
   subtitle: Find us at the Welshmill Hub in Frome
