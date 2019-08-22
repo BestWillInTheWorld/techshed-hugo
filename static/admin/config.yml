@@ -103,6 +103,7 @@ collections:
             - {label: map_base_url, name: map_base_url, widget: string}
             - {label: map_api_key, name: map_api_key, widget: string}
             - {label: map_search, name: map_search, widget: string}
+            - {label: map_centre, name: map_centre, widget: string}
       - file: "content/test/_index.md"
         label: "Test Page"
         name: "test"
