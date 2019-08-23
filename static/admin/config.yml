@@ -86,8 +86,8 @@ collections:
             - {label: Enable, name: enable, widget: boolean}
             - {label: Title, name: title, widget: string}
             - {label: Subtitle, name: subtitle, widget: markdown}
-          - label: Service Section
-            name: service_section
+          - label: Action Section
+            name: action_section
             widget: object
             fields: 
             - {label: Enable, name: enable, widget: boolean}

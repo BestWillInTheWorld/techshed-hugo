@@ -12,9 +12,9 @@ hero:
   subtitle: |-
     Interested in tech?
 
-    Working in tech, looking to share ideas & expand skills?
+    Working in tech, looking to share ideas & grow?
 
-    We work on real-world issues using technology with interesting people.
+    We work on real-world issues using tech with interesting people & diverse skills.
 about:
   description: >-
     Through a combination of regular weekly sessions, community projects and
@@ -60,7 +60,7 @@ contact:
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 action_section:
   enable: true
-  section_id: service
+  section_id: action
 find_us:
   enable: true
   map_api_key: AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc
