@@ -14,7 +14,7 @@ hero:
     skills? 
 
 
-    Does working on real-world issues using technology sound good? 
+    We work on real-world issues using technology. 
 
 
     <br>
