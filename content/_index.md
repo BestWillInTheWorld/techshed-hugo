@@ -9,12 +9,15 @@ hero:
   button_url: '#about'
   enable: true
   title: Techshed Frome
-  subtitle: |-
+  subtitle: >-
     Interested in tech?
+
 
     Working in tech, looking to share ideas & grow?
 
-    We work on real-world issues using tech with interesting people & diverse skills.
+
+    We work on real-world issues using tech with interesting people & diverse
+    skills.
 about:
   description: >-
     Through a combination of regular weekly sessions, community projects and
@@ -70,6 +73,6 @@ find_us:
   map_zoom: 16
   section_id: find-us
   title: Techshed Frome
-  subtitle: Find us at the Welshmill Hub in Frome
+  subtitle: 'Find us at the Welshmill Hub in Frome, 7-9pm every Wednesday evening'
 ---
 
