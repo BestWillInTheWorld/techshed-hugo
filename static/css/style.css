@@ -560,6 +560,7 @@ a:active {
   right: 0;
   bottom: 0;
   background: rgba(31, 30, 28, 0.9);
+  background-repeat: no-repeat;
 }
 
 .call-to-action .block h2 {
