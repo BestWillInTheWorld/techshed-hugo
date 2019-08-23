@@ -10,11 +10,8 @@ hero:
   enable: true
   title: Techshed Frome
   subtitle: >-
-    Interested in tech? - Working in tech and want to share & expand your
-    skills? 
-
-
-    We work on real-world issues using technology. 
+    Interested in tech?  -  Working in tech and want to share & expand your
+    skills?  -  We work on real-world issues using technology. 
 
 
     <br>
