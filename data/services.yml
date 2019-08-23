@@ -5,27 +5,41 @@ subtitle: What we do in the shedows.
 list:
   - delay: 0
     description: >-
-      Coding (web, Python, .Net, iOS), microcontrollers, data (visualisation,
-      data science, machine learning)
+      Regular open/casual meetups for networking and general collab.
+
+
+      Coding (web, Python, C#, iOS), microcontrollers, data (visualisation, data
+      science, machine learning)
     icon: tf-globe
     title: Weekly Meetups
   - delay: 0.2
     description: >-
-      Test Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut
+      We welcome everyone of all levels from total newbies to technical wizards
+
+
+      We run open learning sessions, and you're welcome to show up & use the
+      space to tinker and see what happens!
     icon: tf-circle-compass
     title: Collaboration
   - delay: 0.4
     description: >-
-      Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      Hackday events around specific challenges.
+
+
+
+
+      Tech talks from members and guest speakers.  [Sharing your skills by
+      teaching
+      others](https://effectiviology.com/protege-effect-learn-by-teaching/) and
+      responding to questions from others is not just rewarding on a human
+      level, it's [shown to be the best way to master your
+      craft](https://www.teachhub.com/we-learn-by-teaching).
     icon: tf-strategy
     title: Hackathons and Tech Talks
   - delay: 0.6
     description: >-
-      I can't get `Markdown` tables to work in **Hugo**.
-
-      And the Layout of these items depends too much on the amount of text they
-      contain.
+      We believe applying skills meaningful projects are the way to keep focus
+      and purpose while learning and improving, whatever level you're at right
+      now.
     icon: ' tf-anchor2'
     title: Community Projects
