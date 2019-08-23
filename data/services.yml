@@ -14,11 +14,11 @@ list:
     title: Weekly Meetups
   - delay: 0.2
     description: >-
-      We welcome everyone of all levels from total newbies to technical wizards
+      We welcome all levels from total newbies to technical wizards.
 
 
-      We run open learning sessions, and you're welcome to show up & use the
-      space to tinker and see what happens!
+      With open learning sessions you're welcome to show up & use the space to
+      tinker and see what happens!
     icon: tf-circle-compass
     title: Collaboration
   - delay: 0.4
@@ -44,8 +44,7 @@ list:
     title: Hackathons and Tech Talks
   - delay: 0.6
     description: >-
-      We believe applying skills meaningful projects are the way to keep focus
-      and purpose while learning and improving, whatever level you're at right
-      now.
+      We believe applying skills meaningful projects keeps focus and purpose
+      while learning and improving, whatever level you're at right now.
     icon: ' tf-anchor2'
     title: Community Projects
