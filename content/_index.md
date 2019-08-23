@@ -17,7 +17,7 @@ hero:
     Does working on real-world issues using technology sound good? 
 
 
-    Come along and meet interesting people, share ideas and develop your skills.
+    Come along, meet interesting people, share ideas & develop your skills.
 about:
   description: >-
     Through a combination of regular weekly sessions, community projects and
