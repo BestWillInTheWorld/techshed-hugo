@@ -10,7 +10,7 @@
                             {{ .title }}
                         </h1>
                         <p class="wow fadeInDown hero-text-subtitle" data-wow-delay="0.5s" data-wow-duration=".5s">
-                            {{ .subtitle }}
+                            {{ .subtitle| markdownify }}
                         </p>
                         <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
                             <a class="btn btn-home" href="{{ .button_url }}" role="button">

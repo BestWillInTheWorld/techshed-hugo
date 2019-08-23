@@ -6,7 +6,7 @@
             <div class="col-md-12 wow text-center">
                 <div class="block">
                     <h2>{{ .title }}</h2>
-                    <p>{{ .subtitle  }}</p>
+                    <p>{{ .subtitle | markdownify }}</p>
                     <div class="container-fluid">
                         <div class="map-responsive">
                             <iframe src="{{ .map_base_url }}?key={{ .map_api_key }}&q={{ .map_search }}&center={{ .map_centre }}&zoom={{ .map_zoom }}" 

@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="heading wow fadeInUp">
                         <h2>{{ .data.title }}</h2>
-                        <p>{{ .data.subtitle }}</p>
+                        <p>{{ .data.subtitle | markdownify }}</p>
                 </div>
                 {{ range .data.list }}
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}s">
