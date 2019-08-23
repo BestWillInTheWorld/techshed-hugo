@@ -9,7 +9,7 @@ hero:
   button_url: '#about'
   enable: true
   title: Techshed Frome
-  subtitle: |-
+  subtitle: >-
     Interested in tech? 
 
 
