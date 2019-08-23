@@ -1,5 +1,9 @@
 :root {
   --main-accent-color: #2499ff;
+  /* --second-accent-color: #f2681c; */
+  --second-accent-color: #2499ff;
+  /* --third-accent-color: #43d21d; */
+  --third-accent-color: #2499ff;
 }
 
 /*--
@@ -470,24 +474,24 @@ a:active {
 }
 
 /*--
-    service start
+    action start
 --*/
-.service {
+.action {
   text-align: center;
 }
 
-.service .block {
+.action .block {
   margin-bottom: 50px;
 }
 
-.service .block i {
+.action .block i {
   font-size: 30px;
   display: inline-block;
   margin-bottom: 15px;
-  color: #1bafb4;
+  color: var(--third-accent-color);
 }
 
-.service .block h3 {
+.action .block h3 {
   color: #333333;
   font-weight: 600;
   font-size: 18px;
@@ -496,7 +500,7 @@ a:active {
   text-transform: uppercase;
 }
 
-.service .block p {
+.action .block p {
   color: #666;
 }
 

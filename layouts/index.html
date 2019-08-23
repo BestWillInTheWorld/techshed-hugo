@@ -1,7 +1,7 @@
 {{define "main"}}
     {{ partial "hero-area.html" .Params.hero }}
     {{ partial "about.html" .Params.about }}
-    {{ partial "service.html" (dict "service_section" .Params.service_section "data" $.Site.Data.services) }}
+    {{ partial "action.html" (dict "action_section" .Params.action_section "data" $.Site.Data.action) }}
     {{ partial "call-to-action.html" .Params.call_to_action }}
     {{ partial "contact.html" .Params.contact }}
     {{ partial "find-us.html" .Params.find_us }}

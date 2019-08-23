@@ -58,7 +58,7 @@ contact:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-service_section:
+action_section:
   enable: true
   section_id: service
 find_us:

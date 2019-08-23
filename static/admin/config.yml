@@ -15,9 +15,9 @@ collections:
   - label: "Data"
     name: "data"
     files:
-      - label: "Services"
-        name: "services"
-        file: "data/services.yml"
+      - label: "Action"
+        name: "action"
+        file: "data/action.yml"
         fields:
           - {label: Enable, name: enable, widget: boolean}
           - {label: section_id, name: section_id, widget: string}
@@ -109,8 +109,8 @@ collections:
         label: "Test Page"
         name: "test"
         fields:
-          - label: Service Section
-            name: service_section
+          - label: Action Section
+            name: action_section
             widget: object
             fields: 
             - {label: Enable, name: enable, widget: boolean}
