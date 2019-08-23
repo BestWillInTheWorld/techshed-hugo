@@ -382,6 +382,13 @@ a:active {
 .hero-text-subtitle {
   text-shadow: 0px 0px 8px rgba(0,0,0, 1);
 }
+
+@media (min-width: 992px) {
+  .hero-area  .col-lg-7 {
+    width: 62%;
+  }
+}
+
 /* .hero-area  */
 .navigation {
   background-color: transparent;
