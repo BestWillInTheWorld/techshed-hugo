@@ -332,6 +332,9 @@ a:active {
     line-height: 30px;
     height: 40px;
   }
+  .hero-area h1{ 
+    font-size: 3em;
+  }
   .hero-area {
     background-size: auto 150vmin;
   }
@@ -355,7 +358,7 @@ a:active {
 
 @media only screen and (max-width:800px) and (orientation: portrait) {
   .hero-text-block {
-    margin-top: 18em;
+    margin-top: 2em;
   }
 }
 
