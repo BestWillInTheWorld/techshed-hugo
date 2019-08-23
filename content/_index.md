@@ -9,11 +9,11 @@ hero:
   button_url: '#about'
   enable: true
   title: Techshed Frome
-  subtitle: >-
-    Interested in tech?  -  Working in tech, looking to share ideas & expand skills?
+  subtitle: |-
+    Interested in tech?
 
+    Working in tech, looking to share ideas & expand skills?
 
-    <br>
     We work on real-world issues using technology with interesting people.
 about:
   description: >-
