@@ -17,6 +17,8 @@ hero:
     Does working on real-world issues using technology sound good? 
 
 
+    <br>
+
     Come along, meet interesting people, share ideas & develop your skills.
 about:
   description: >-
