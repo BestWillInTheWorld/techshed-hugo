@@ -10,9 +10,13 @@ hero:
   enable: true
   title: Techshed Frome
   subtitle: |-
-    * Interested in tech? 
-    * Working in tech and want to share & expand your skills? 
-    * Does working on real-world issues using technology sound good? 
+    Interested in tech? 
+
+
+    Working in tech and want to share & expand your skills? 
+
+
+    Does working on real-world issues using technology sound good? 
 
 
     Come along and meet interesting people, share ideas and develop your skills.
