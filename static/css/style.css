@@ -547,6 +547,7 @@ a:active {
   .call-to-action {
     background-size: contain;
     background-attachment: scroll;
+    background: #46433e;
   }
 }
 
@@ -558,7 +559,7 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(31, 30, 28, 0.9);
 }
 
 .call-to-action .block h2 {
