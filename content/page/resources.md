@@ -22,8 +22,8 @@ We have grander plans in this area for connecting people with collaborators and 
 
 This is the starting place for longer-running projects we might carry out as a group.
 
-
+![](/images/uploads/screenshot-2019-08-22-at-11.55.17.png)
 
 ### [Admin](https://trello.com/b/z23NtQ2M/techshed-todo)
 
-THis board keeps track of some of the admin tasks still left to do for the shed.
+This board keeps track of some of the admin tasks still left to do for the shed.
