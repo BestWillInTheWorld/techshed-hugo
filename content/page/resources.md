@@ -16,14 +16,22 @@ Feel free to join in the discussion!
 
 ## Trello Boards
 
-* ### [Skills](https://trello.com/b/W4NvovnG/skills-matrix)
-  * In order to highlight what the community has to offer, we've started a "skills matrix".  
-  * The intention is to provide a simple way to find out what skills are being shared at the sessions and what you might like to learn or contribute.
-  * We have grander plans in this area for connecting people with collaborators and project ideas, so watch this space.
-* ### [Problems](https://trello.com/b/8EllkZqi/techshed-problem-board)
-  * This is the starting place for longer-running projects we might carry out as a group.
+### [Skills](https://trello.com/b/W4NvovnG/skills-matrix)
+
+In order to highlight what the community has to offer, we've started a "skills matrix".  
+
+
+The intention is to provide a simple way to find out what skills are being shared at the sessions and what you might like to learn or contribute.
+We have grander plans in this area for connecting people with collaborators and project ideas, so watch this space.
+
+
+### [Problems](https://trello.com/b/8EllkZqi/techshed-problem-board)
+
+This is the starting place for longer-running projects we might carry out as a group.
 
 ![](/images/uploads/sml_how.png)
 
-* ### [Admin](https://trello.com/b/z23NtQ2M/techshed-todo)
-  * This board keeps track of some of the admin tasks still left to do for the shed.
+
+### [Admin](https://trello.com/b/z23NtQ2M/techshed-todo)
+
+This board keeps track of some of the admin tasks still left to do for the shed.
