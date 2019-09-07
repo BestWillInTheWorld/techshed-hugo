@@ -8,5 +8,7 @@ links:
     url: '/#action'
   - text: Find Us
     url: '/#find-us'
+  - text: Resources
+    url: /page/resources/
   - text: Community
     url: 'https://forum.techshedfrome.org'
