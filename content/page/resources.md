@@ -16,13 +16,11 @@ The intention is to provide a simple way to find out what skills are being share
 
 We have grander plans in this area for connecting people with collaborators and project ideas, so watch this space.
 
-
-
 ### [Problems](https://trello.com/b/8EllkZqi/techshed-problem-board)
 
 This is the starting place for longer-running projects we might carry out as a group.
 
-![](/images/uploads/screenshot-2019-08-22-at-11.55.17.png)
+![](/images/uploads/sml_how.png)
 
 ### [Admin](https://trello.com/b/z23NtQ2M/techshed-todo)
 
