@@ -12,7 +12,7 @@ Feel free to join in the discussion!
 ---
 ## Trello Boards
 
-
+---
 ### [Skills](https://trello.com/b/W4NvovnG/skills-matrix)
 
 In order to highlight what the community has to offer, we've started a "skills matrix".  
