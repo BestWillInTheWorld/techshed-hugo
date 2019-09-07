@@ -430,6 +430,17 @@ a:active {
   text-shadow: none;
 }
 
+.navigation.fixed {
+  background-color: #fff;
+  box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15);
+}
+
+.navigation.fixed .menu a {
+  color: #666;
+  text-shadow: none;
+}
+
+
 .navigation img {
   height: 24px;
 }
