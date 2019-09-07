@@ -1,13 +1,14 @@
 enable: true
 section_id: shed
 title: What Happens at the Techshed
-subtitle: What we do in the shedows.
+subtitle: Doscendo discimus
 list:
   - delay: 0
     description: >-
-      Regular open/casual meetups for networking and general collab.
+      Regular open/casual meetups for making, networking & general collab.
 
 
+      Wednesdays 7-9pm, [Welshmill Hub](#find-us).
 
 
       `Coding (web, Python, C#, iOS), microcontrollers, data (visualisation,
@@ -19,8 +20,6 @@ list:
       We welcome all levels from total newbies to technical wizards.
 
 
-
-
       With open learning sessions you're welcome to show up & use the space to
       tinker and see what happens!
     icon: fa-chalkboard-teacher
@@ -30,9 +29,7 @@ list:
       Hackdays around specific challenges.
 
 
-
-
-      Tech talks from members and guests.  
+      Talks from members & guests.  
 
 
 
@@ -40,9 +37,7 @@ list:
       [Sharing your skills by teaching
       others](https://effectiviology.com/protege-effect-learn-by-teaching/) &
       responding to questions from others is not just rewarding on a human
-      level, it's [shown to
-      be](https://digest.bps.org.uk/2018/05/04/learning-by-teaching-others-is-extremely-effective-a-new-study-tested-a-key-reason-why/)
-      a fantastic way to [master your
+      level, it's a fantastic way to [master your
       craft](https://www.teachhub.com/we-learn-by-teaching).
     icon: fa-laptop-code
     title: Hackathons & Tech Talks
