@@ -20,19 +20,28 @@ hero:
     skills.
 about:
   description: >-
-    Through a combination of regular weekly sessions, community projects and
-    public events we aim to raise technical resources in Frome, fostering
-    technical and digital creative talent in the area.
+    Firstly, we really wanted a tech meetup in Frome that we can go to, meet
+    people, share what we know and work on projects and ideas.
 
 
-    To enable this, satisfying the simple need for somewhere to go, share and
-    create with interesting, like-minded people is our starting point. 
+
+    What we've come up with uses regular weekly sessions, community projects and
+    public events, aiming to support each other as technical professionals,
+    enthusiasts and learners. 
+
+
+
+    To enable this, simply having somewhere to go, share and create with
+    interesting, like-minded people is our starting point. 
+
 
 
     Through collaboration and focus on structured, real-world projects we'e
     building depth of skills and understanding among members, as well as
     broadening awareness of the opportunities and pitfalls of technology among
-    the wider community.
+    the wider community, while raising technical resources for Frome by
+    fostering technical and digital creative talent in the area.
+
 
 
     When we bring different minds together, we believe awesome things will
