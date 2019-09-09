@@ -16,8 +16,8 @@ hero:
     Working in tech, looking to share ideas & grow?
 
 
-    We work on real-world issues using tech with interesting people & diverse
-    skills.
+    We hold a weekly meetup, Wednesdays 7-9pm at the [Welshmill
+    Hub](https://techshedfrome.org/#find-us), Frome
 about:
   description: >-
     Firstly, we really wanted a [tech meetup in
