@@ -235,6 +235,7 @@ After that setup, the CMS allows me to signup (against this sepcific site) and l
   * use https://github.com/netlify-templates/one-click-hugo-cms/blob/master/site/ as a guide
   * + https://www.netlifycms.org/docs/collection-types/
   
+  
 ## TODO
 * Look at CMS setup for 
   * creating new pages
