@@ -10,14 +10,14 @@ hero:
   enable: true
   title: Techshed Frome
   subtitle: >-
-    Interested in tech?
+    **Interested in tech?**
 
 
-    Working in tech, looking to share ideas & grow?
+    **Working in tech, looking to share ideas & work on real-world problems?**
 
 
-    We hold a weekly meetup, Wednesdays 7-9pm at the [Welshmill
-    Hub](https://techshedfrome.org/#find-us), Frome
+    **We hold a weekly meetup, Wednesdays 7-9pm at the** [**Welshmill
+    Hub**](https://techshedfrome.org/#find-us)**, Frome**
 about:
   description: >-
     Firstly, we really wanted a [tech meetup in
