@@ -1,6 +1,5 @@
 ---
 title: Resources
-useFixedNav: true
 ---
 ## Techshed Forum
 

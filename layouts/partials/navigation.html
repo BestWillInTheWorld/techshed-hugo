@@ -1,5 +1,5 @@
 <div class="container">
-    <nav class="navbar navbar-fixed-top  navigation {{ if .useFixedNav }}fixed{{ end }}" id="top-nav">
+    <nav class="navbar navbar-fixed-top  navigation {{ if not .useWhiteNav }}fixed{{ end }}" id="top-nav">
         <a class="navbar-brand float-none float-lg-left" href="#">
             <img src="{{ .navigation.logo }}" alt="logo">
         </a>

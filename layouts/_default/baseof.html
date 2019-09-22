@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "preloader.html" . }}
-{{ partial "navigation.html" (dict "navigation" $.Site.Data.navigation "useFixedNav" .Params.useFixedNav ) }}
+{{ partial "navigation.html" (dict "navigation" $.Site.Data.navigation "useWhiteNav" .Params.useWhiteNav ) }}
     {{ block "main" . }}
     {{end}}
 {{ partial "footer.html" . }}

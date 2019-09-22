@@ -1,6 +1,5 @@
 ---
 title: This is New!
-useFixedNav: true
 ---
 A new page from scratch via CMS.
 
@@ -17,3 +16,4 @@ Initial single page template ihas inline styles too - currently just a proof of 
 | [Markdown tables](https://www.tablesgenerator.com/markdown_tables) | are probably |
 | ------------------------------------------------------------------ | ------------ |
 | going to be                                                        | useful       |
+

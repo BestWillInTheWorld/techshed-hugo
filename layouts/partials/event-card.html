@@ -1,0 +1,11 @@
+<article>
+    <div style="min-height:320px">
+        <img src="{{ .image }}" >
+    </div>
+    <div class="text">
+        <h3>{{ .name }}</h3>
+        <p>{{ .description | markdownify }}</p>
+        <div>{{ .startDate }}</div>
+        <div>{{ .url }}</div>
+    </div>
+</article>

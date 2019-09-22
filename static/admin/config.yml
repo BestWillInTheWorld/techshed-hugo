@@ -136,7 +136,7 @@ collections:
             widget: list
             fields:
             - {label: Name, name: name, widget: string}
-            - {label: Description, name: description, widget: string}
+            - {label: Description, name: description, widget: markdown}
             - {label: Image, name: image, widget: image}
             - {label: Start Date & Time, name: startDate, widget: datetime}
             - {label: URL, name: url, widget: string, default: "https://techshedfrome.org"}

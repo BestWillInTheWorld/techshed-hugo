@@ -1,0 +1,58 @@
+{{define "main"}}
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .grid>article {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+    
+    .grid>article img {
+        max-width: 100%;
+    }
+    
+    .text {
+        padding: 20px;
+    }
+    .text p{
+        padding:20px;
+    }
+    .text div {
+        display:block;
+    }
+
+    
+    .grid>article:nth-child(1) {
+        grid-column: span 2;
+    }
+
+    .inner {
+        margin: 100px 80px 100px;
+    }
+    
+    .header {
+        width: 300px;
+        margin: 60px auto;
+    }
+    h1, h2 {
+        color: black; 
+        width: 300px;
+        text-align: center;
+    }
+</style>
+<main class="inner">
+    <header class="header">
+        <h1>{{ $.Site.Data.event.title }}</h1>
+        <h2>{{ $.Site.Data.event.subtitle }}</h2>
+    </header>
+    <div class="grid" >
+    {{ range sort $.Site.Data.event.list "startDate" "desc" }}
+        {{ partial  "event-card.html" . }}
+    {{ end }}
+    </div>
+</main>
+{{end}}
