@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Event",
+      "url": "http://www.example.org/events/1",
+      "name": {{ .name }},
+      "description": {{ .description }},
+      "duration": {{ .duration }},
+      "startDate": {{ .startDate }},
+      "image": {{ .image }},
+      "eventSchedule": {
+         "@type": "Schedule",
+         "repeatFrequency": {{ .eventSchedule.repeatFrequency }},
+         "byDay": {{ .eventSchedule.byDay }},
+         "startTime": {{ .eventSchedule.startTime }},
+         "endTime": {{ .eventSchedule.endTime }}
+      },
+      "location": {
+        "@type": "Place",
+        "name": {{ .location.name }},
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": {{ .location.address.streetAddress }},
+            "addressLocality": {{ .location.address.addressLocality }},
+            "postalCode": {{ .location.address.postalCode  }},
+            "addressRegion": {{ .location.address.addressRegion  }},
+            "addressCountry": {{ .location.address.addressCountry  }}
+        }
+      }
+    }
+</script>

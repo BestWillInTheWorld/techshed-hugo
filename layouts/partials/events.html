@@ -1,0 +1,13 @@
+{{ if .enable }}
+{{"<!-- Event snippets -->" | safeHTML}}
+<section id="event-snippets">
+    <ul>
+        {{ range .list }}
+        <li>
+            {{ partial "event_snippet.html" . }}
+        </li>
+        {{ end }}
+    </ul>
+    
+</section>
+{{ end }}

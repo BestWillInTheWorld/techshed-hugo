@@ -1,37 +1,7 @@
 {{ if .enable }}
 {{"<!-- Call To Action Section -->" | safeHTML}}
 <section id="find-us" >
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org/",
-      "@type": "Event",
-      "url": "http://www.example.org/events/1",
-      "name": "Techshed Frome Meetup",
-      "description": "Weekly tech meetup in Frome",
-      "duration": "PT120M",
-      "startDate": "2019-09-18 19:00",
-      "image": "https://raw.githubusercontent.com/techshedfrome/techshed-hugo/master/static/images/uploads/header-bg-reversed.jpg",
-      "eventSchedule": {
-         "@type": "Schedule",
-         "repeatFrequency": "P1W",
-         "byDay": "http://schema.org/Wednesday",
-         "startTime": "19:00",
-         "endTime": "21:00"
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Welshimill Hub",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "The Welsh Mill, Park Hill Drive, Frome",
-            "addressLocality": "Frome",
-            "postalCode": "BA11 2LE",
-            "addressRegion": "Somerset",
-            "addressCountry": "UK"
-        }
-      }
-    }
-    </script>
+    {{ partial "events.html" $.Site.Data.navigation }}
     <div class="container map-container">
         <div class="row">
             <div class="col-md-12 wow text-center">

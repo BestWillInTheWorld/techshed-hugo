@@ -1,0 +1,51 @@
+enable: true
+section_id: event
+title: What's On?
+subtitle: Doscendo discimus
+list:
+  - name: Techshed Frome Meetup
+    description: >-
+      Weekly open/casual meetups for making, networking & general collab.
+
+      Wednesdays 7-9pm, Welshmill Hub, Frome.
+    icon: fa-compress-arrows-alt
+    startDate: 2019-09-18 19:00
+    image: https://raw.githubusercontent.com/techshedfrome/techshed-hugo/master/static/images/uploads/header-bg-reversed.jpg"
+    eventSchedule: 
+        repeatFrequency: P1W
+        byDay: http://schema.org/Wednesday
+        startTime: 19:00
+        endTime: 19:00
+    location: 
+        name: Welshimill Hub
+        address: 
+            streetAddress: The Welsh Mill, Park Hill Drive, Frome
+            addressLocality: Frome
+            postalCode: BA11 2LE
+            addressRegion: Somerset
+            addressCountry: UK
+  - name: Techshed Frome Meetup
+    description: >-
+      Weekly open/casual meetups for making, networking & general collab.
+      Wednesdays 7-9pm, Welshmill Hub, Frome.
+
+      We've got hold of a bunch of digital electronics kit - planning to get people intoroduced to Arduino this week to show how simple it is to get started with interactive electronics.
+
+      The idea is to get everyone a foundation, then move on to connected devices.
+      This should give us a decent base for collab on up-comming community projects around environmental monitoring and interactive widgets for the spce.
+    icon: fa-compress-arrows-alt
+    startDate: 2019-09-25 19:00
+    image: https://raw.githubusercontent.com/techshedfrome/techshed-hugo/master/static/images/uploads/header-bg-reversed.jpg"
+    eventSchedule: 
+        repeatFrequency: P1W
+        byDay: http://schema.org/Wednesday
+        startTime: 19:00
+        endTime: 19:00
+    location: 
+        name: Welshimill Hub
+        address: 
+            streetAddress: The Welsh Mill, Park Hill Drive, Frome
+            addressLocality: Frome
+            postalCode: BA11 2LE
+            addressRegion: Somerset
+            addressCountry: UK
