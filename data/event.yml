@@ -17,7 +17,7 @@ list:
         startTime: 19:00
         endTime: 21:00
     location: 
-        name: Welshimill Hub
+        name: Welshmill Hub
         address: 
             streetAddress: The Welsh Mill, Park Hill Drive, Frome
             addressLocality: Frome
@@ -43,7 +43,7 @@ list:
         startTime: 19:00
         endTime: 21:00
     location: 
-        name: Welshimill Hub
+        name: Welshmill Hub
         address: 
             streetAddress: The Welsh Mill, Park Hill Drive, Frome
             addressLocality: Frome

@@ -139,8 +139,9 @@ collections:
             - {label: Image, name: image, widget: image}
             - {label: Start Date & Time, name: startDate, widget: datetime}
             - {label: URL, name: url, widget: string}
-            - label: Scedule
+            - label: Schedule
               name: eventSchedule
+              widget: object
               fields: 
               - {label: startTime, name: startTime, widget: text, default: "19:00"}
               - {endTime: startTime, name: startTime, widget: text, default: "21:00"}
@@ -148,10 +149,12 @@ collections:
               - {label: Frequency, name: repeatFrequency, widget: text, default: "P1W"}
             - label: location
               name: location
+              widget: object
               fields: 
-              - {label: Name, name: name, widget: text, default: "Welshimill Hub"}
+              - {label: Name, name: name, widget: text, default: "Welshmill Hub"}
               - label: Address
                 name: address
+                widget: object
                 fields: 
                 - {label: street Address, name: streetAddress, widget: text, default: "The Welsh Mill, Park Hill Drive, Frome"}
                 - {label: Town, name: addressLocality, widget: text, default: "Frome"}
