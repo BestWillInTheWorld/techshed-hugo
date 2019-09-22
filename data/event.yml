@@ -1,5 +1,6 @@
+enable: true
 title: What's On?
-subtitle: Doscendo discimus
+subtitle: Events at the Techshed
 section_id: event
 list:
   - description: |-
