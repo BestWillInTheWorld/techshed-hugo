@@ -19,7 +19,7 @@ list:
         postalCode: BA11 2LE
         streetAddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
-    name: Techshed Frome Meetup
+    name: 'Techshed Frome Meetup [18th Sept 2019]'
     startDate: '2019-09-18 19:00'
     url: 'https://techshedfrome.org'
   - description: >-
@@ -48,6 +48,6 @@ list:
         postalCode: BA11 2LE
         streetAddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
-    name: Techshed Frome Meetup
+    name: 'Techshed Frome Meetup [25th Sept 2019]'
     startDate: '2019-09-25 19:00'
     url: 'https://techshedfrome.org'
