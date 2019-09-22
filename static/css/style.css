@@ -83,7 +83,9 @@ a:focus,
 a:active {
   text-decoration: none;
 }
-
+/* p:empty {
+  display: none;
+} */
 .attribution {
   margin: 14px 0 4px;
 }
