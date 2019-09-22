@@ -144,7 +144,7 @@ collections:
               widget: object
               fields: 
               - {label: startTime, name: startTime, widget: text, default: "19:00"}
-              - {endTime: startTime, name: startTime, widget: text, default: "21:00"}
+              - {endTime: endTime, name: endTime, widget: text, default: "21:00"}
               - {label: Day, name: byDay, widget: text, default: "http://schema.org/Wednesday"}
               - {label: Frequency, name: repeatFrequency, widget: text, default: "P1W"}
             - label: location
