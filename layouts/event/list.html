@@ -54,7 +54,9 @@
     </header>
     <div class="grid" >
     {{ range sort $.Site.Data.event.list "startDate" "desc" }}
-        {{ partial  "event-card.html" . }}
+        {{ if .showEvent }}
+            {{ partial  "event-card.html" . }}
+        {{ end }}
     {{ end }}
     </div>
 </main>

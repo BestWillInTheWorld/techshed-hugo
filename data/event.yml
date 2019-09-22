@@ -6,6 +6,7 @@ list:
   - description: |-
       Weekly open/casual meetups for making, networking & general collab.
       Wednesdays 7-9pm, Welshmill Hub, Frome.
+    showEvent: true
     eventSchedule:
       byDay: 'http://schema.org/Wednesday'
       endTime: '21:00'
@@ -38,7 +39,8 @@ list:
         This should give us a decent base for collab on up-comming
         community projects around environmental monitoring and interactive widgets
         for the space.
-        
+
+    showEvent: true
     eventSchedule:
       byDay: 'http://schema.org/Wednesday'
       endTime: '21:00'

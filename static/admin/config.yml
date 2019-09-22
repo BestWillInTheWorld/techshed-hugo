@@ -137,6 +137,7 @@ collections:
             fields:
             - {label: Name, name: name, widget: string}
             - {label: Description, name: description, widget: markdown}
+            - {label: Show Event, name: showEvent, widget: boolean, default: false}
             - {label: Image, name: image, widget: image}
             - {label: Start Date & Time, name: startDate, widget: datetime}
             - {label: URL, name: url, widget: string, default: "https://techshedfrome.org"}
