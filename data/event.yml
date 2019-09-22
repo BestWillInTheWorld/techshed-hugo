@@ -22,19 +22,18 @@ list:
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [18th Sept 2019]'
     startDate: '2019-09-18 19:00'
-    url: 'https://techshedfrome.org'
-  - description: >-
-      Weekly open/casual meetups for making, networking & general collab.
-      Wednesdays 7-9pm, Welshmill Hub, Frome.
-
-      We've got hold of a bunch of digital electronics kit - planning to get
-      people intoroduced to Arduino this week to show how simple it is to get
-      started with interactive electronics.
-
-      The idea is to get everyone a foundation, then move on to connected
-      devices. This should give us a decent base for collab on up-comming
-      community projects around environmental monitoring and interactive widgets
-      for the spce.
+    url: 'https://techshedfrome.org/#find-us'
+  - description: |-
+        #### Weekly open/casual meetups for making, networking & general collab.
+        ##### Wednesdays 7-9pm, Welshmill Hub, Frome.
+        We've got hold of some digital electronics kit - planning to get
+        people intoroduced to Arduino this week to show how simple it is to get
+        started with interactive electronics.        
+        The idea is to get everyone a up to speed, then move on to connected
+        devices. 
+        This should give us a decent base for collab on up-comming
+        community projects around environmental monitoring and interactive widgets
+        for the space.
     eventSchedule:
       byDay: 'http://schema.org/Wednesday'
       endTime: '21:00'
@@ -51,4 +50,4 @@ list:
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [25th Sept 2019]'
     startDate: '2019-09-25 19:00'
-    url: 'https://techshedfrome.org'
+    url: 'https://techshedfrome.org/#find-us'

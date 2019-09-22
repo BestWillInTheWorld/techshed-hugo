@@ -10,5 +10,7 @@ links:
     url: '/#find-us'
   - text: Resources
     url: /page/resources/
+  - text: Meetups
+    url: /event/
   - text: Community
     url: 'https://forum.techshedfrome.org'
