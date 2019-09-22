@@ -14,12 +14,12 @@ list:
     eventSchedule: 
         repeatFrequency: P1W
         byDay: http://schema.org/Wednesday
-        startTime: 19:00
-        endTime: 21:00
+        startTime: "19:00"
+        endTime: "21:00"
     location: 
         name: Welshmill Hub
         address: 
-            streetAddress: The Welsh Mill, Park Hill Drive, Frome
+            streetAddress: The Welsh Mill, Park Hill Drive
             addressLocality: Frome
             postalCode: BA11 2LE
             addressRegion: Somerset
@@ -40,12 +40,12 @@ list:
     eventSchedule: 
         repeatFrequency: P1W
         byDay: http://schema.org/Wednesday
-        startTime: 19:00
-        endTime: 21:00
+        startTime: "19:00"
+        endTime: "21:00"
     location: 
         name: Welshmill Hub
         address: 
-            streetAddress: The Welsh Mill, Park Hill Drive, Frome
+            streetAddress: The Welsh Mill, Park Hill Drive
             addressLocality: Frome
             postalCode: BA11 2LE
             addressRegion: Somerset
