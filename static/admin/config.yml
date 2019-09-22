@@ -123,6 +123,41 @@ collections:
             fields:
             - {label: Text, name: text, widget: string}
             - {label: URL, name: url, widget: string}
+      - label: "Events"
+        name: "events"
+        file: "data/event.yml"
+        fields:
+          - {label: title, name: title, widget: string}
+          - {label: subtitle, name: subtitle, widget: string}
+          - {label: Section Id, name: section_id, widget: string} 
+          - label: List
+            name: list
+            widget: list
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Description, name: description, widget: string}
+            - {label: Image, name: image, widget: image}
+            - {label: Start Date & Time, name: startDate, widget: datetime}
+            - {label: URL, name: url, widget: url}
+            - label: Scedule
+              name: eventSchedule
+              fields: 
+              - {label: startTime, name: startTime, widget: text, default: "19:00"}
+              - {endTime: startTime, name: startTime, widget: text, default: "21:00"}
+              - {label: Day, name: byDay, widget: text, default: "http://schema.org/Wednesday"}
+              - {label: Frequency, name: repeatFrequency, widget: text, default: "P1W"}
+            - label: location
+              name: location
+              fields: 
+              - {label: Name, name: name, widget: text, default: "Welshimill Hub"}
+              - label: Address
+                name: address
+                fields: 
+                - {label: street Address, name: streetAddress, widget: text, default: "The Welsh Mill, Park Hill Drive, Frome"}
+                - {label: Town, name: addressLocality, widget: text, default: "Frome"}
+                - {label: Postode, name: postalCode, widget: text, default: "BA11 2LE"}
+                - {label: County, name: addressRegion, widget: text, default: "Somerset"}
+                - {label: Country, name: addressCountry, widget: text, default: "UK"}
 
 ############
 # optional #

@@ -8,14 +8,14 @@ list:
       Weekly open/casual meetups for making, networking & general collab.
 
       Wednesdays 7-9pm, Welshmill Hub, Frome.
-    icon: fa-compress-arrows-alt
     startDate: 2019-09-18 19:00
     image: https://raw.githubusercontent.com/techshedfrome/techshed-hugo/master/static/images/uploads/header-bg-reversed.jpg"
+    url: 
     eventSchedule: 
         repeatFrequency: P1W
         byDay: http://schema.org/Wednesday
         startTime: 19:00
-        endTime: 19:00
+        endTime: 21:00
     location: 
         name: Welshimill Hub
         address: 
@@ -36,11 +36,12 @@ list:
     icon: fa-compress-arrows-alt
     startDate: 2019-09-25 19:00
     image: https://raw.githubusercontent.com/techshedfrome/techshed-hugo/master/static/images/uploads/header-bg-reversed.jpg"
+    url: 
     eventSchedule: 
         repeatFrequency: P1W
         byDay: http://schema.org/Wednesday
         startTime: 19:00
-        endTime: 19:00
+        endTime: 21:00
     location: 
         name: Welshimill Hub
         address: 

@@ -1,6 +1,6 @@
 {{ if .enable }}
 {{"<!-- Event snippets -->" | safeHTML}}
-<section id="event-snippets">
+<section id="{{ .section_id }}">
     <ul>
         {{ range .list }}
         <li>
