@@ -6,7 +6,6 @@ list:
   - description: |-
       Weekly open/casual meetups for making, networking & general collab.
       Wednesdays 7-9pm, Welshmill Hub, Frome.
-    showEvent: true
     eventSchedule:
       byDay: 'http://schema.org/Wednesday'
       endTime: '21:00'
@@ -22,25 +21,34 @@ list:
         streetAddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [18th Sept 2019]'
+    showEvent: true
     startDate: '2019-09-18 19:00'
     url: 'https://techshedfrome.org/#find-us'
-  - description: |-
-        Weekly open/casual meetups for making, networking & general collab.
+  - description: >-
+      Weekly open/casual meetups for making, networking & general collab.
 
-        Wednesdays 7-9pm, Welshmill Hub, Frome.
 
-        We now have some digital electronics kit for members to work with in the space - planning to get
-        people intoroduced to Arduino this week to show how simple it is to get
-        started with interactive electronics.        
+      Wednesdays 7-9pm, Welshmill Hub, Frome.
 
-        The idea is to get everyone a up to speed, then move on to connected
-        devices. 
 
-        This should give us a decent base for collab on up-comming
-        community projects around environmental monitoring and interactive widgets
-        for the space.
+      We now have some digital electronics kit for members to work with in the
+      space - planning to get
 
-    showEvent: true
+      people intoroduced to Arduino this week to show how simple it is to get
+
+      started with interactive electronics.        
+
+
+      The idea is to get everyone a up to speed, then move on to connected
+
+      devices. 
+
+
+      This should give us a decent base for collab on up-comming
+
+      community projects around environmental monitoring and interactive widgets
+
+      for the space.
     eventSchedule:
       byDay: 'http://schema.org/Wednesday'
       endTime: '21:00'
@@ -56,5 +64,25 @@ list:
         streetAddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [25th Sept 2019]'
+    showEvent: true
     startDate: '2019-09-25 19:00'
+    url: 'https://techshedfrome.org/#find-us'
+  - description: tbc
+    eventSchedule:
+      byDay: 'http://schema.org/Wednesday'
+      endTime: '21:00'
+      repeatFrequency: P1W
+      startTime: '19:00'
+    image: /images/uploads/pumpkin.jpg
+    location:
+      address:
+        addressCountry: UK
+        addressLocality: Frome
+        addressRegion: Somerset
+        postalCode: BA11 2LE
+        streetAddress: 'The Welsh Mill, Park Hill Drive, Frome'
+      name: Welshmill Hub
+    name: 'Techshed Frome Meetup [2nd Oct 2019]'
+    showEvent: false
+    startDate: 2019-10-02T18:00:46.766Z
     url: 'https://techshedfrome.org/#find-us'
