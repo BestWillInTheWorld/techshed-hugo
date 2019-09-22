@@ -325,11 +325,11 @@ a:active {
   margin-top: 30em;
 }
 
-.hero-area a {
+.hero-area p a {
   color: #fff;
   text-decoration: underline;
 }
-.hero-area a:hover {
+.hero-area p a:hover {
   color: #fff;
   font-weight: bold;
 }
