@@ -83,6 +83,6 @@ list:
         streetAddress: 'The Welsh Mill, Park Hill Drive, Frome'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [2nd Oct 2019]'
-    showEvent: false
+    showEvent: true
     startDate: 2019-10-02T18:00:46.766Z
     url: 'https://techshedfrome.org/#find-us'
