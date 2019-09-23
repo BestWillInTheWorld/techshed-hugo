@@ -97,6 +97,7 @@ collections:
     name: "events"
     folder: "content/event"
     create: true 
+    delete: false 
     fields:
       - {label: Draft?, name: draft, widget: boolean, default: true}
       - {label: title, name: title, widget: string}
