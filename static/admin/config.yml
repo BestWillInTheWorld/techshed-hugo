@@ -98,6 +98,7 @@ collections:
     folder: "content/event"
     create: true 
     fields:
+      - {label: Draft?, name: draft, widget: boolean, default: false}
       - {label: title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: Image, name: image, widget: image}

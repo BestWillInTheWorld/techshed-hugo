@@ -82,6 +82,9 @@
     </article>
     {{ partial "event-snippet.html" .Params }}
     <div>
+        {{ .Params.content }}
+    </div>
+    <div>
         {{ .Content }}
     </div>
 </section>
