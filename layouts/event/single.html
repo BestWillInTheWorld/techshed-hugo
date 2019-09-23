@@ -82,10 +82,10 @@
     </article>
     {{ partial "event-snippet.html" .Params }}
     <div>
-        {{ .Params.content }}
+        {{ .Params.content | markdownify }}
     </div>
     <div>
-        {{ .Content }}
+        {{ .Content | markdownify }}
     </div>
 </section>
 {{end}}
