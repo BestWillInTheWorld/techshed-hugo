@@ -1,0 +1,12 @@
+<article>
+    <div class="image" >
+        <img src="{{ .Params.image }}" >
+    </div>
+    <div class="text">
+        <h3>{{ .Params.name }}</h3>
+        <summary>{{ .Params.description | markdownify }}</summary>
+        <div><a href="{{ .Params.url }}">{{ .Params.startDate }}</a></div>
+
+        {{ partial "event-snippet.html" .Params }}
+    </div>
+</article>

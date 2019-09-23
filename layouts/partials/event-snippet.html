@@ -2,29 +2,29 @@
     {
       "@context": "http://schema.org/",
       "@type": "Event",
-      "name": "{{ .name }}",
+      "name": "{{ .title }}",
       "description": "{{ .description }}",
       "duration": "{{ .duration }}",
-      "startDate": "{{ .startDate }}",
+      "startDate": "{{ .startdate }}",
       "image": "{{ .image }}",
-      "url": "{{ .url }}",
+      "url": "{{ .eventurl }}",
       "eventSchedule": {
          "@type": "Schedule",
-         "repeatFrequency": "{{ .eventSchedule.repeatFrequency }}",
-         "byDay": "{{ .eventSchedule.byDay }}",
-         "startTime": "{{ .eventSchedule.startTime }}",
-         "endTime": "{{ .eventSchedule.endTime }}"
+         "repeatFrequency": "{{ .eventschedule.repeatfrequency }}",
+         "byDay": "{{ .eventschedule.byday }}",
+         "startTime": "{{ .eventschedule.starttime }}",
+         "endTime": "{{ .eventschedule.endtime }}"
       },
       "location": {
         "@type": "Place",
         "name": "{{ .location.name }}",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "{{ .location.address.streetAddress }}",
-            "addressLocality": "{{ .location.address.addressLocality }}",
-            "postalCode": "{{ .location.address.postalCode  }}",
-            "addressRegion": "{{ .location.address.addressRegion  }}",
-            "addressCountry": "{{ .location.address.addressCountry  }}"
+            "streetAddress": "{{ .location.streetaddress }}",
+            "addressLocality": "{{ .location.addresslocality }}",
+            "postalCode": "{{ .location.postalcode  }}",
+            "addressRegion": "{{ .location.addressregion  }}",
+            "addressCountry": "{{ .location.addresscountry  }}"
         }
       }
     }

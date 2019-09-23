@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "preloader.html" . }}
 {{ partial "navigation.html" (dict "navigation" $.Site.Data.navigation "useFixedNav" .Params.useFixedNav ) }}
-    {{ block "main" . }}
-            {{ .Render "summary" }}
-    {{end}}
+{{ block "main" . }}
+   {{ .Render "summary" }}
+{{end}}
 {{ partial "footer.html" . }}

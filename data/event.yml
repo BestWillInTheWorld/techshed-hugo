@@ -6,24 +6,23 @@ list:
   - description: |-
       Weekly open/casual meetups for making, networking & general collab.
       Wednesdays 7-9pm, Welshmill Hub, Frome.
-    eventSchedule:
-      byDay: 'http://schema.org/Wednesday'
-      endTime: '21:00'
-      repeatFrequency: P1W
-      startTime: '19:00'
+    eventschedule:
+      byday: 'http://schema.org/Wednesday'
+      endtime: '21:00'
+      repeatfrequency: P1W
+      starttime: '19:00'
     image: /images/uploads/sml_how.png
     location:
-      address:
-        addressCountry: UK
-        addressLocality: Frome
-        addressRegion: Somerset
-        postalCode: BA11 2LE
-        streetAddress: 'The Welsh Mill, Park Hill Drive'
+      addresscountry: UK
+      addresslocality: Frome
+      addressregion: Somerset
+      postalcode: BA11 2LE
+      streetaddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [18th Sept 2019]'
-    showEvent: true
-    startDate: '2019-09-18 19:00'
-    url: 'https://techshedfrome.org/#find-us'
+    showevent: true
+    startdate: '2019-09-18 19:00'
+    eventurl: 'https://techshedfrome.org/#find-us'
   - description: >-
       Weekly open/casual meetups for making, networking & general collab.
 
@@ -49,40 +48,38 @@ list:
       community projects around environmental monitoring and interactive widgets
 
       for the space.
-    eventSchedule:
-      byDay: 'http://schema.org/Wednesday'
-      endTime: '21:00'
-      repeatFrequency: P1W
-      startTime: '19:00'
+    eventschedule:
+      byday: 'http://schema.org/Wednesday'
+      endtime: '21:00'
+      repeatfrequency: P1W
+      starttime: '19:00'
     image: /images/uploads/header-bg-reversed.jpg
     location:
-      address:
-        addressCountry: UK
-        addressLocality: Frome
-        addressRegion: Somerset
-        postalCode: BA11 2LE
-        streetAddress: 'The Welsh Mill, Park Hill Drive'
+      addresscountry: UK
+      addresslocality: Frome
+      addressregion: Somerset
+      postalcode: BA11 2LE
+      streetaddress: 'The Welsh Mill, Park Hill Drive'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [25th Sept 2019]'
-    showEvent: true
-    startDate: '2019-09-25 19:00'
-    url: 'https://techshedfrome.org/#find-us'
+    showevent: true
+    startdate: '2019-09-25 19:00'
+    eventurl: 'https://techshedfrome.org/#find-us'
   - description: tbc
-    eventSchedule:
-      byDay: 'http://schema.org/Wednesday'
-      endTime: '21:00'
-      repeatFrequency: P1W
-      startTime: '19:00'
+    eventschedule:
+      byday: 'http://schema.org/Wednesday'
+      endtime: '21:00'
+      repeatfrequency: P1W
+      starttime: '19:00'
     image: /images/uploads/pumpkin.jpg
     location:
-      address:
-        addressCountry: UK
-        addressLocality: Frome
-        addressRegion: Somerset
-        postalCode: BA11 2LE
-        streetAddress: 'The Welsh Mill, Park Hill Drive, Frome'
+      addresscountry: UK
+      addresslocality: Frome
+      addressregion: Somerset
+      postalcode: BA11 2LE
+      streetaddress: 'The Welsh Mill, Park Hill Drive, Frome'
       name: Welshmill Hub
     name: 'Techshed Frome Meetup [2nd Oct 2019]'
-    showEvent: false
-    startDate: 2019-10-02T18:00:46.766Z
-    url: 'https://techshedfrome.org/#find-us'
+    showevent: false
+    startdate: 2019-10-02T18:00:46.766Z
+    eventurl: 'https://techshedfrome.org/#find-us'

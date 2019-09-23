@@ -137,32 +137,28 @@ collections:
             fields:
             - {label: Name, name: name, widget: string}
             - {label: Description, name: description, widget: markdown}
-            - {label: Show Event, name: showEvent, widget: boolean, default: false}
+            - {label: Show Event, name: showevent, widget: boolean, default: false}
             - {label: Image, name: image, widget: image}
-            - {label: Start Date & Time, name: startDate, widget: datetime}
+            - {label: Start Date & Time, name: startdate, widget: datetime}
             - {label: URL, name: url, widget: string, default: "https://techshedfrome.org/#find-us"}
             - label: Schedule
-              name: eventSchedule
+              name: eventschedule
               widget: object
               fields: 
-              - {label: startTime, name: startTime, widget: text, default: "19:00"}
-              - {endTime: endTime, name: endTime, widget: text, default: "21:00"}
+              - {label: startTime, name: starttime, widget: text, default: "19:00"}
+              - {endTime: endTime, name: endtime, widget: text, default: "21:00"}
               - {label: Day, name: byDay, widget: text, default: "http://schema.org/Wednesday"}
-              - {label: Frequency, name: repeatFrequency, widget: text, default: "P1W"}
+              - {label: Frequency, name: repeatfrequency, widget: text, default: "P1W"}
             - label: location
               name: location
               widget: object
               fields: 
               - {label: Name, name: name, widget: text, default: "Welshmill Hub"}
-              - label: Address
-                name: address
-                widget: object
-                fields: 
-                - {label: street Address, name: streetAddress, widget: text, default: "The Welsh Mill, Park Hill Drive, Frome"}
-                - {label: Town, name: addressLocality, widget: text, default: "Frome"}
-                - {label: Postode, name: postalCode, widget: text, default: "BA11 2LE"}
-                - {label: County, name: addressRegion, widget: text, default: "Somerset"}
-                - {label: Country, name: addressCountry, widget: text, default: "UK"}
+              - {label: street Address, name: streetaddress, widget: text, default: "The Welsh Mill, Park Hill Drive, Frome"}
+              - {label: Town, name: addresslocality, widget: text, default: "Frome"}
+              - {label: Postode, name: postalcode, widget: text, default: "BA11 2LE"}
+              - {label: County, name: addressregion, widget: text, default: "Somerset"}
+              - {label: Country, name: addresscountry, widget: text, default: "UK"}
 
 ############
 # optional #

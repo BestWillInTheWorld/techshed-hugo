@@ -2,68 +2,71 @@
 <style>
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 20px;
     }
-    
+
     .grid>article {
         border: 1px solid #ccc;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-        min-width:265px;
+        min-width: 265px;
+        min-width: 40%;
     }
-    
+
     .grid>article img {
         width: 100%;
     }
 
     .image {
-        min-height: 20vh
+        min-height: 14vh
     }
-    
+
     .text {
-        padding:4vh;
+        padding: 3vh;
     }
+
     .text p {
         padding: 6px;
     }
+
     .text div {
-        padding:2px;
+        padding: 2px;
     }
-    .text summary  {
-        padding:1vh;
+
+    .text summary {
+        padding: 1vh;
     }
-    
+
     .grid>article:nth-child(1) {
         grid-column: span 2;
         grid-row: span 2;
-        min-width:265px;
+        min-width: 265px;
+        max-width: 100%;
     }
 
     .inner {
-        margin: 100px 60px 100px;
+        margin: 100px 20px 100px;
     }
-    
+
     .header {
         width: 300px;
         margin: 60px auto;
     }
-    h1, h2 {
-        color: black; 
+
+    h1,
+    h2 {
+        color: black;
         width: 300px;
         text-align: center;
     }
 </style>
 <main class="inner">
     <header class="header">
-        <h1>{{ $.Site.Data.event.title }}</h1>
-        <h2>{{ $.Site.Data.event.subtitle }}</h2>
+        {{ .Render "header" }}
     </header>
-    <div class="grid" >
-    {{ range sort $.Site.Data.event.list "startDate" "desc" }}
-        {{ if .showEvent }}
-            {{ partial  "event-card.html" . }}
+    <div class="grid">
+        {{ range .Data.Pages }}
+            {{ .Render "li" }}
         {{ end }}
-    {{ end }}
     </div>
 </main>
 {{end}}
