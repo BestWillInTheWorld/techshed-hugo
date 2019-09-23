@@ -3,11 +3,9 @@
 <section id="{{ .section_id }}">
     <ul>
         {{ range .list }}
-            {{ if .showevent }}
             <li>
                 {{ partial "event-snippet.html" . }}
             </li>
-            {{ end }}
         {{ end }}
     </ul>
     
