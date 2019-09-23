@@ -2,6 +2,88 @@
 {{ partial "preloader.html" . }}
 {{ partial "navigation.html" (dict "navigation" $.Site.Data.navigation "useFixedNav" .Params.useFixedNav ) }}
 {{ block "main" . }}
-   {{ .Render "summary" }}
+<style>
+    .grid {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    .grid>article {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        min-width: 265px;
+        min-width: 40%;
+    }
+
+    .grid>article img {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .image {
+        min-height: 14vh;
+    }
+
+    .text {
+        padding: 3vh;
+    }
+
+    .text p {
+        padding: 6px;
+    }
+
+    .text div {
+        padding: 2px;
+    }
+
+    .text summary {
+        padding: 1vh;
+    }
+
+    .grid>article:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 2;
+        min-width: 265px;
+        max-width: 100%;
+    }
+
+    .inner {
+        margin: 100px 20px 100px;
+    }
+
+    .header {
+        width: 300px;
+        margin: 60px auto;
+    }
+
+    h1,
+    h2 {
+        color: black;
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+    }
+</style>
+<section class="inner">
+    <h1>
+        {{ .Title }}
+    </h1>
+    <article>
+        <div class="image">
+            <img src="{{ .Params.image }}">
+        </div>
+        <div class="text">
+            <summary>{{ .Params.description | markdownify }}</summary>
+            <div>{{ .Params.startDate }}</div>
+        </div>
+    </article>
+    {{ partial "event-snippet.html" .Params }}
+    <div>
+        {{ .Content }}
+    </div>
+</section>
 {{end}}
 {{ partial "footer.html" . }}

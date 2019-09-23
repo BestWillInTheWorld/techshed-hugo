@@ -2,6 +2,12 @@
 {{ partial "preloader.html" . }}
 {{ partial "navigation.html" (dict "navigation" $.Site.Data.navigation "useFixedNav" .Params.useFixedNav ) }}
     {{ block "main" . }}
-            {{ .Render "summary" }}
+    <section style="margin: 80px 40px">
+        <h2>{{ .Title }}</h2>    
+        <p style="margin-top:2.5em;">
+            {{ .Content }}
+        </p> 
+        
+    </section>
     {{end}}
 {{ partial "footer.html" . }}
