@@ -100,6 +100,7 @@ collections:
     delete: false 
     fields:
       - {label: Draft?, name: draft, widget: boolean, default: true}
+      - {label: Creation Date, name: date, widget: datetime}
       - {label: title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: Image, name: image, widget: image}

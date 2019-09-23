@@ -64,7 +64,7 @@
         {{ .Render "header" }}
     </header>
     <div class="grid">
-        {{ range .Data.Pages }}
+        {{ range (.Data.Pages.ByParam "startdate").Reverse }}
             {{ .Render "li" }}
         {{ end }}
     </div>
