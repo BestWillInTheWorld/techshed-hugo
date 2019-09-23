@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Test
 description: this isn't a real event
 image: /images/uploads/pumpkin.jpg
@@ -8,11 +8,11 @@ duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: /event/not-real
 Content: |-
-  ![](/images/uploads/tisproperjob.jpg)
+  ## here's hoping
 
   Not sure if the content editor will work as intended...
 
-  ## here's hoping
+  ![](/images/uploads/tisproperjob.jpg)
 eventSchedule:
   byDay: 'http://schema.org/Wednesday'
   endTime: '21:00'
