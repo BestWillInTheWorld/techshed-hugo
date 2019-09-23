@@ -18,9 +18,8 @@ location:
     addressRegion: Somerset
     postalCode: BA11 2LE
     addressCountry: UK
-name: 'Techshed Frome Meetup [18th Sept 2019]'
 startDate: '2019-09-18 19:00'
 duration: 'PT120M'
 eventUrl: 'https://techshedfrome.org/#find-us'
-url: 'event/2019-09-25'
+url: '/event/2019-09-25'
 ---
