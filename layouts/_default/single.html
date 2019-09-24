@@ -54,6 +54,10 @@
         margin: 100px 20px 100px;
     }
 
+    .indent {
+        margin: 10px 40px 100px;
+    }
+
     .header {
         width: 300px;
         margin: 60px auto;
@@ -72,19 +76,21 @@
         {{ .Title }}
     </h1>
     {{ if (isset .Params "startdate" ) }}
-    <article>
-        <div class="image">
-            <img src="{{ .Params.image }}">
+        <div>
+            <div class="image">
+                <img src="{{ .Params.image }}">
+            </div>
+            <div class="text">
+                <summary>{{ .Params.description | markdownify }}</summary>
+                <div>{{ .Params.startDate }}</div>
+            </div>
         </div>
-        <div class="text">
-            <summary>{{ .Params.description | markdownify }}</summary>
-            <div>{{ .Params.startDate }}</div>
-        </div>
-    </article>
-    {{ partial "event-snippet.html" .Params }}
-    <div>
-        {{ .Params.content | markdownify }}
-    </div>
+        {{ partial "event-snippet.html" .Params }}
+        <article class="indent">
+            <div class="text">
+                {{ .Params.content | markdownify }}
+            </div>
+        </article>
     {{ end }}
     <div>
         {{ .Content | markdownify }}
