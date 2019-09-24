@@ -71,6 +71,7 @@
     <h1>
         {{ .Title }}
     </h1>
+    {{ if (isset .Params "startdate" ) }}
     <article>
         <div class="image">
             <img src="{{ .Params.image }}">
@@ -84,6 +85,7 @@
     <div>
         {{ .Params.content | markdownify }}
     </div>
+    {{ end }}
     <div>
         {{ .Content | markdownify }}
     </div>
