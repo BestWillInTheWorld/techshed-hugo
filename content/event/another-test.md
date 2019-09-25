@@ -3,7 +3,8 @@ draft: true
 title: Another test
 description: doing stuff
 image: /images/uploads/noun_lychee_2869181.png
-startDate: 2019-09-23T21:20:30.103Z
+startDate: 2019-09-23T20:20:30.103Z
+endDate: 2019-09-23T22:20:30.103Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: /event/not-a-date

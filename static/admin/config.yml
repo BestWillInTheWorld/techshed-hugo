@@ -104,7 +104,7 @@ collections:
       - {label: title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: Image, name: image, widget: image}
-      - {label: Start Date & Time, name: startDate, widget: datetime}
+      - {label: Event Date, name: startDate, widget: date}
       - {label: Duration, name: duration, widget: string, default: "PT120M"}
       - {label: URL, name: eventUrl, widget: string, default: "https://techshedfrome.org/#find-us"}
       - {label: Publish URL, name: url, widget: string, default: "/event/<unique-name-here>" }

@@ -4,6 +4,7 @@ title: Test
 description: this isn't a real event
 image: /images/uploads/pumpkin.jpg
 startDate: 2018-09-23T20:12:00.000Z
+endDate: 2018-09-23T22:12:00.000Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: /event/not-real

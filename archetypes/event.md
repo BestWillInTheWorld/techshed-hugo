@@ -19,6 +19,7 @@ location:
     postalCode: BA11 2LE
     addressCountry: UK
 startDate: '2019-09-18 19:00'
+endDate: '2019-09-18 21:00'
 duration: 'PT120M'
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: '/event/2019-09-25'
