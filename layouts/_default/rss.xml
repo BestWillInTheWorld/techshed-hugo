@@ -1,5 +1,5 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -27,6 +27,11 @@
         {{ .Params.description | html }}
       {{ end }}
       </description>
+
+      {{ if (isset .Params "image") }}
+      <media:content type="image/jpeg" medium="image" width="900" height="600"
+            url="https://techshedfrome.org{{ .Params.image | safeHTML }}" />
+      {{ end }}
     </item>
     {{ end }}
   </channel>
