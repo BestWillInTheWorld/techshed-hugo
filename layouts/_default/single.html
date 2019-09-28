@@ -117,8 +117,6 @@
         {{ .Title }}
     </h1>
     {{ if (isset .Params "startdate" ) }}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/arduino-light.min.css">
-        {{ partial "code-highlighting.html" }}
         <div>
             <div class="image">
                 <img src="{{ .Params.image }}">
