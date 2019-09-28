@@ -61,7 +61,7 @@
 </style>
 <main class="inner">
     <header class="header">
-        {{ .Render "header" }}
+        {{ .Render "heading" }}
     </header>
     <div class="grid">
         {{ range (.Data.Pages.ByParam "startdate").Reverse }}
