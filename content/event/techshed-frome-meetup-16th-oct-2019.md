@@ -15,7 +15,7 @@ startDate: 2019-10-16T18:00:52.795Z
 endDate: 2019-10-16T20:00:52.825Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
-url: /event/<unique-name-here>
+url: /event/20191016
 Content: ' '
 eventSchedule:
   byDay: 'http://schema.org/Wednesday'
