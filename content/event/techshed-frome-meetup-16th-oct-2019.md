@@ -16,7 +16,53 @@ endDate: 2019-10-16T20:00:52.825Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: /event/20191016
-Content: ' '
+Content: >-
+  A few more new faces this week, which is great to see.
+
+
+  Great atmosphere with really interesting conversations had, and practical work
+  going on - one LED Matrix project fixed, a different LED Matrix died, but it's
+  all.
+
+
+  Kinetic art/physical mirrors came up - here's a couple of links of anyone's
+  interested:
+
+  *
+  https://hackaday.com/2015/05/30/interactive-fur-mirror-follows-your-every-move/
+
+  * https://youtu.be/kV8v2GKC8WA
+
+
+  ## A couple of project notes
+
+
+  ### Progressive Web Apps
+
+
+  At site point we're likely to be putting together a PWA ([Progressive Web
+  App](https://developers.google.com/web/progressive-web-apps)) for [Discover
+  Frome](https://www.discoverfrome.co.uk/)
+
+
+  ### Sensor Networks/Pollution Monitoring
+
+
+  We're going to continue working with programmable electronics as part of an
+  effort to get people up to speed for a pollution monitoring project.  
+
+
+  We're likely to try out some different ways to get the data from sensors etc.
+  and have been in contact with [Air Apparent in
+  Bristol](https://airapparentuk.wordpress.com/), looking at using some proven
+  sensor designs like this one created by [Luftdaten](https://luftdaten.info/)
+  in Germany.
+
+
+
+
+  ![Pollution Monitor](/images/uploads/65ba99f5-6b5b-46d1-a80c-95913fe2d626.png
+  "Luftdaten's sensor setup (image credit: Luftdaten)")
 eventSchedule:
   byDay: 'http://schema.org/Wednesday'
   endTime: '21:00'
