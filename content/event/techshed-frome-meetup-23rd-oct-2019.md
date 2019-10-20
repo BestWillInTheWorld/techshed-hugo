@@ -13,7 +13,7 @@ description: >-
 
 
   See you there!
-image: /images/uploads/9e82fb20-8d9c-42f5-866e-5760707be8e2.png
+image: /images/uploads/frank-wang-ogxlyca1bqc-unsplash-1-.jpg
 startDate: 2019-10-23T18:00:00.000Z
 endDate: 2019-10-23T20:00:47.575Z
 duration: PT120M
