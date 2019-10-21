@@ -28,6 +28,7 @@ Content: >-
   Kinetic art/physical mirrors came up - here's a couple of links of anyone's
   interested:
 
+
   *
   https://hackaday.com/2015/05/30/interactive-fur-mirror-follows-your-every-move/
 
@@ -37,12 +38,15 @@ Content: >-
   ## A couple of project notes
 
 
-  ### Progressive Web Apps
+
+  ### Proogressive Web Apps
 
 
   At site point we're likely to be putting together a PWA ([Progressive Web
   App](https://developers.google.com/web/progressive-web-apps)) for [Discover
   Frome](https://www.discoverfrome.co.uk/)
+
+
 
 
   ### Sensor Networks/Pollution Monitoring
@@ -59,10 +63,8 @@ Content: >-
   in Germany.
 
 
-
-
   ![Pollution Monitor](/images/uploads/65ba99f5-6b5b-46d1-a80c-95913fe2d626.png
-  "Luftdaten's sensor setup (image credit: Luftdaten)")
+  "Luftdaten's sensor setup - image credit: Luftdaten")
 eventSchedule:
   byDay: 'http://schema.org/Wednesday'
   endTime: '21:00'
