@@ -39,12 +39,16 @@ Content: >-
   ## A couple of project notes
 
 
+
+
   ### Proogressive Web Apps
 
 
   At site point we're likely to be putting together a PWA ([Progressive Web
   App](https://developers.google.com/web/progressive-web-apps)) for [Discover
   Frome](https://www.discoverfrome.co.uk/)
+
+
 
 
   ### Sensor Networks/Pollution Monitoring
