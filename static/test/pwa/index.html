@@ -18,15 +18,17 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
 
     <link rel="stylesheet" href="css/style.css" media="screen">
-    <title>Hello World</title>
+    <title>Where are you?</title>
 </head>
 <body class="fullscreen">
     <div class="container">
-        <h1 class="title">Hello World</h1>
-        <button class="btn btn-default" id="askButton">Ask for location</button>
-        <div id="target"></div>
+        <h1 class="title" id="locationInfo">Where are you?</h1>
+        <button class="btn btn-default" id="getLocation">Ask for location</button>
+        <button class="btn btn-default" id="getBluetooth">Ask for bluetooth</button>
+        <div id="locationTrace"></div>
     </div>
     <script src="js/location.js"></script>
+    <script src="js/bluetooth.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

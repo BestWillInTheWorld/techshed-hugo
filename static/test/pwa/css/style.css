@@ -21,3 +21,9 @@ html,
 .title {
     font-size: 3rem;
 }
+
+#locationTrace {
+    height: 20vh;
+    margin: 20px;
+    overflow: hidden auto;
+}
