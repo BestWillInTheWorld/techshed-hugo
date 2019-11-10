@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2019-11-10T20:52:38.705Z
 title: 'Techshed Frome Meetup [13th Nov 2019]'
 description: >-
