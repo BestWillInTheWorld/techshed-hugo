@@ -13,7 +13,7 @@ description: >-
 
 
   See you there!
-image: /images/uploads/frank-wang-ogxlyca1bqc-unsplash-1-.jpg
+image: /images/uploads/sensors-small.jpg
 startDate: 2019-10-23T18:00:00.000Z
 endDate: 2019-10-23T20:00:47.575Z
 duration: PT120M
