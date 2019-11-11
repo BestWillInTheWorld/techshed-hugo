@@ -13,7 +13,7 @@ startDate: 2019-11-13T19:00:38.747Z
 endDate: 2019-11-13T21:00:00.000Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
-url: /event/2019-11-06
+url: /event/2019-11-13
 Content: ' '
 eventSchedule:
   byDay: 'http://schema.org/Wednesday'
