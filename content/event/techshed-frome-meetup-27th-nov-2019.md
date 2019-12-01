@@ -6,8 +6,8 @@ description: >-
   Weekly casual meetup - as ever feel free to bring/work on projects,
   learn/experiment with new things, for advice and to chat with other members.
 image: /images/uploads/27th-nov.jpg
-startDate: 2019-12-01T19:56:22.698Z
-endDate: 2019-12-01T19:56:22.734Z
+startDate: 2019-11-27T19:00:22.698Z
+endDate: 2019-11-27T21:00:22.734Z
 duration: PT120M
 eventUrl: 'https://techshedfrome.org/#find-us'
 url: /event/2019-11-27
