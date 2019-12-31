@@ -158,6 +158,18 @@ collections:
             fields:
             - {label: Text, name: text, widget: string}
             - {label: URL, name: url, widget: string}
+      - label: "Social"
+        name: "social"
+        file: "data/social.yml"
+        fields:
+          - label: List
+            name: list
+            widget: list
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: URL, name: url, widget: markdown}
+            - {label: Icon CSS Class, name: icon_classes, widget: string}
+            - {label: Shown, name: shown, widget: boolean}
      
 
 ############

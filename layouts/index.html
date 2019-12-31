@@ -1,5 +1,5 @@
 {{define "main"}}
-    {{ partial "hero-area.html" .Params.hero }}
+    {{ partial "hero-area.html" (dict "hero" .Params.hero "social" $.Site.Data.social ) }}
     {{ partial "about.html" .Params.about }}
     {{ partial "action.html" (dict "action_section" .Params.action_section "data" $.Site.Data.action) }}
     {{ partial "call-to-action.html" .Params.call_to_action }}

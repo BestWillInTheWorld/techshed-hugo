@@ -1,0 +1,17 @@
+list:
+  - name: Facebook
+    url: https://www.facebook.com/TechShedFrome/
+    icon_classes: fab fa-facebook-f
+    shown: true
+  - name: Discourse
+    url: https://forum.techshedfrome.org/
+    icon_classes: fab fa-discourse
+    shown: true
+  - name: Instagram
+    url: https://www.instagram.com/techshedfrome/
+    icon_classes: fab fa-instagram
+    shown: true
+  - name: Youtube
+    url: https://www.youtube.com/channel/UCd4pDZ0Tipv1DvRoo26fJmg
+    icon_classes: fab fa-youtube
+    shown: true
