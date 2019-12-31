@@ -27,12 +27,12 @@ The Shed Show is on every month, but is likely to become a weekly show as more p
 <br><br><br>
 ## THE SHEDS
 
-| What? | Where? | | When? |
+| What Shed? | Where? | | When? |
 | -------------------------------------------- | -------------- | -----------------: | -------------- |
 | [**The Women’s Shed**](http://www.fromeshed.org.uk/community/frome-shed-12888/womens-shed/) (men are also welcome!) | The Welsh Mill (ground floor) | Mondays | 9am to 1pm |
-| [**The Tech Shed**](/)                            | Welsh Mill Hub | Wednesdays | 7pm to 9pm |
+| [**The Tech Shed**](/)                            | [Welsh Mill Hub](https://welshmillhub.org/remakery/) | Wednesdays | 7pm to 9pm |
 | [**The Men’s Shed**](http://www.fromeshed.org.uk/) (women are also welcome!) | The Welsh Mill (ground floor) | Thursdays | 9am to 1pm |
-| [**The Make Shed**](https://edventurefrome.org/events/shed/) | Welsh Mill Hub | Thursdays | 6pm to 9pm |
+| [**The Make Shed**](https://edventurefrome.org/events/shed/) | [Welsh Mill Hub](https://welshmillhub.org/remakery/) | Thursdays | 6pm to 9pm |
 | Make Shed is a regular open workshop space for people aged 18 – 35 <br>to work on practical and creative projects individually or with others. ||
 
 <br>
