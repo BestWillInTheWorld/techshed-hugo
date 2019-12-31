@@ -29,9 +29,9 @@ The Shed Show is on every month, but is likely to become a weekly show as more p
 
 | What Shed? | Where? | | When? |
 | -------------------------------------------- | -------------- | -----------------: | -------------- |
-| [**The Women’s Shed**](http://www.fromeshed.org.uk/community/frome-shed-12888/womens-shed/) (men are also welcome!) | The Welsh Mill (ground floor) | Mondays | 9am to 1pm |
+| [**The Women’s Shed**](http://www.fromeshed.org.uk/community/frome-shed-12888/womens-shed/) (men are also welcome!) | [The Welsh Mill](https://www.google.com/maps/place/The+Welsh+Mill,+Park+Hill+Dr,+Frome+BA11+2LE/@51.2378929,-2.3222552,17z/data=!3m1!4b1!4m5!3m4!1s0x48722c82d765f407:0x457eeb78bf8d9ca5!8m2!3d51.2378929!4d-2.3200665) (ground floor) | Mondays | 9am to 1pm |
 | [**The Tech Shed**](/)                            | [Welsh Mill Hub](https://welshmillhub.org/remakery/) | Wednesdays | 7pm to 9pm |
-| [**The Men’s Shed**](http://www.fromeshed.org.uk/) (women are also welcome!) | The Welsh Mill (ground floor) | Thursdays | 9am to 1pm |
+| [**The Men’s Shed**](http://www.fromeshed.org.uk/) (women are also welcome!) | [The Welsh Mill](https://www.google.com/maps/place/The+Welsh+Mill,+Park+Hill+Dr,+Frome+BA11+2LE/@51.2378929,-2.3222552,17z/data=!3m1!4b1!4m5!3m4!1s0x48722c82d765f407:0x457eeb78bf8d9ca5!8m2!3d51.2378929!4d-2.3200665) (ground floor) | Thursdays | 9am to 1pm |
 | [**The Make Shed**](https://edventurefrome.org/events/shed/) | [Welsh Mill Hub](https://welshmillhub.org/remakery/) | Thursdays | 6pm to 9pm |
 | Make Shed is a regular open workshop space for people aged 18 – 35 <br>to work on practical and creative projects individually or with others. ||
 
