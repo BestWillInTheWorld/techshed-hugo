@@ -1,5 +1,5 @@
 ---
-title: New Home
+title: NewHome
 useFixedNav: true
 ---
 # **What is Techshed?**
