@@ -1,5 +1,6 @@
 # Techshed Website
 
+
 The intention of this project is to explore options for free static web site hosting and CMS capabilities from modern providers, making use of a static site builder for performant, hard to break (intentionally or otherwise), accessible content delivery on the web.
 
 * A content Management System (CMS) will be required to simplify maitenance of content and of posting new content reliably.
