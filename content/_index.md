@@ -1,9 +1,6 @@
 ---
 title: Techshed Frome
-subtitle: >-
-  At Techshed we're building a community of makers to enhance skills, teach,
-  learn and create new things.
-useWhiteNav: true
+subtitle: play.collaborate.make
 hero:
   bg: /images/uploads/header-bg-reversed.jpg
   button_text: Tell me more!
