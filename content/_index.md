@@ -3,44 +3,25 @@ title: Techshed Frome
 subtitle: play.collaborate.make
 hero:
   bg: /images/uploads/header-bg-reversed.jpg
-  button_text: Tell me more!
+  button_text: FIND OUT MORE
   button_url: '#about'
   enable: true
   title: Techshed Frome
   subtitle: >-
-    **Interested in tech?**
-
-
-    **Working in tech, looking to share ideas & work on real-world problems?**
-
-
-    **We hold a weekly meetup, Wednesdays 7-9pm at the** [**Welshmill
-    Hub**](https://techshedfrome.org/#find-us)**, Frome**
+    **A weekly communal space for the tech curious to play, collaborate and
+    make.**
 about:
   description: >-
-    Firstly, we really wanted a [tech meetup in
-    Frome](https://techshedfrome.org/#find-us) that we can go to, meet people,
-    share what we know and work on projects and ideas.
+    **What is Techshed?**
 
 
-    What we've come up with uses regular weekly sessions, community projects and
-    public events, aiming to support each other as technical professionals,
-    enthusiasts and learners. 
+    A group of technology enthusiasts that get together each week in social
+    space to ‘tinker’ with everything from.
 
 
-    To enable this, simply having somewhere to go, share and create with
-    interesting, like-minded people is our starting point. 
 
 
-    Through collaboration and focus on structured, real-world projects we'e
-    building depth of skills and understanding among members, as well as
-    broadening awareness of the opportunities and pitfalls of technology among
-    the wider community, while raising technical resources for Frome by
-    fostering technical and digital creative talent in the area.
-
-
-    When we bring different minds together, we believe awesome things will
-    happen!
+    Circuit boards, programming, lasers, websites, apps, 3d printers.
   enable: true
   heading: >-
     At Techshed we're building a community of tech makers to enhance skills,
