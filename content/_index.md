@@ -7,25 +7,16 @@ hero:
   button_url: '#about'
   enable: true
   title: Techshed Frome
-  subtitle: >-
-    **A weekly communal space for the tech curious to play, collaborate and
-    make.**
+  subtitle: 'A weekly communal space for the tech curious to play, collaborate and make.'
 about:
   description: >-
-    **What is Techshed?**
-
-
     A group of technology enthusiasts that get together each week in social
     space to ‘tinker’ with everything from.
 
 
-
-
     Circuit boards, programming, lasers, websites, apps, 3d printers.
   enable: true
-  heading: >-
-    At Techshed we're building a community of tech makers to enhance skills,
-    teach, learn and create new things
+  heading: '# **What is Techshed?**'
   slider_item:
     - image: images/about/1.jpg
     - image: /images/uploads/screenshot-2019-08-22-at-11.55.17.png
