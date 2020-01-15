@@ -10,16 +10,13 @@ hero:
   subtitle: 'A weekly communal space for the tech curious to play, collaborate and make.'
 about:
   description: >-
-    A group of technology enthusiasts that get together each week in social
-    space to ‘tinker’ with everything from.
-
-
-    Circuit boards, programming, lasers, websites, apps, 3d printers.
+    A social space that a group of technology enthusiasts get together each week
+    to ‘tinker’ with everything from..Circuit boards, programming, lasers,
+    websites, apps, 3d printers.
   enable: true
   heading: '# What is Techshed?'
   slider_item:
-    - image: images/about/1.jpg
-    - image: /images/uploads/screenshot-2019-08-22-at-11.55.17.png
+    - image: /images/uploads/img_1195.jpg
 call_to_action:
   bg: images/call-to-action.jpg
   enable: true
