@@ -16,7 +16,7 @@ about:
 
     Circuit boards, programming, lasers, websites, apps, 3d printers.
   enable: true
-  heading: '**What is Techshed?**'
+  heading: '# What is Techshed?'
   slider_item:
     - image: images/about/1.jpg
     - image: /images/uploads/screenshot-2019-08-22-at-11.55.17.png
